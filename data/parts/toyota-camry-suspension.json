@@ -1,0 +1,65 @@
+[
+  {
+    "id": "tc-sus-001",
+    "nameEn": "Front Shock Absorber",
+    "nameTh": "โช้คอัพหน้า",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "KYB / Monroe / Bilstein",
+    "partNumber": "48520-80515",
+    "category": "suspension",
+    "subcategory": "shock_absorber",
+    "description": "โช้คอัพหน้าแท้ Toyota Camry ให้การควบคุมที่นุ่มนวล ลดการกระแทก เหมาะกับถนนในไทย",
+    "priceRange": { "min": 2800, "max": 9500 },
+    "image": "/images/parts/shock-absorber-front.jpg",
+    "changeInterval": "ทุก 60,000-80,000 กม. หรือเมื่อรถโยกผิดปกติ",
+    "difficulty": "ยาก",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/HKlMNoPQrs",
+      "lazada": "https://www.lazada.co.th/products/i2345601.html"
+    },
+    "relatedArticle": "/blog/สัญญาณโช้คอัพเสื่อม-ควรเปลี่ยนเมื่อไหร่",
+    "tags": ["โช้คอัพ", "กันสะเทือน", "ความปลอดภัย"]
+  },
+  {
+    "id": "tc-sus-002",
+    "nameEn": "Rear Shock Absorber",
+    "nameTh": "โช้คอัพหลัง",
+    "brand": "KYB",
+    "aftermarketBrand": "Monroe / Gabriel",
+    "partNumber": "KYB-349057",
+    "category": "suspension",
+    "subcategory": "shock_absorber",
+    "description": "โช้คอัพหลัง KYB Excel-G สำหรับ Toyota Camry คุณภาพดีราคาเหมาะสม",
+    "priceRange": { "min": 2200, "max": 7500 },
+    "image": "/images/parts/shock-absorber-rear.jpg",
+    "changeInterval": "ทุก 60,000-80,000 กม.",
+    "difficulty": "ยาก",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/ILmNOpQRst",
+      "lazada": "https://www.lazada.co.th/products/i3456012.html"
+    },
+    "relatedArticle": "/blog/สัญญาณโช้คอัพเสื่อม-ควรเปลี่ยนเมื่อไหร่",
+    "tags": ["โช้คอัพ", "กันสะเทือน", "โช้คหลัง"]
+  },
+  {
+    "id": "tc-sus-003",
+    "nameEn": "Control Arm Bushing",
+    "nameTh": "ยางปีกนก",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Moog / TRW",
+    "partNumber": "48655-33110",
+    "category": "suspension",
+    "subcategory": "bushing",
+    "description": "ยางปีกนกแท้ Toyota Camry ช่วยดูดซับการสั่นสะเทือนและรักษาการตั้งศูนย์ล้อที่ถูกต้อง",
+    "priceRange": { "min": 350, "max": 1500 },
+    "image": "/images/parts/control-arm-bushing.jpg",
+    "changeInterval": "ทุก 60,000 กม. หรือเมื่อได้ยินเสียงดัง",
+    "difficulty": "ปานกลาง",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/JMnOPqRStu",
+      "lazada": "https://www.lazada.co.th/products/i4560123.html"
+    },
+    "relatedArticle": null,
+    "tags": ["ยางปีกนก", "bushing", "กันสะเทือน"]
+  }
+]

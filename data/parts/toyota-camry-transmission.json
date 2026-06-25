@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tc-trn-001",
+    "nameEn": "CVT Fluid FE 4L",
+    "nameTh": "น้ำมันเกียร์อัตโนมัติ CVT Fluid FE (แกลลอน)",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Aisin / Motul",
+    "partNumber": "08886-02505",
+    "category": "transmission",
+    "subcategory": "fluid",
+    "description": "น้ำมันเกียร์ออโต้ CVT แท้ของ Toyota ป้องกันการสึกหรอ ลดแรงเสียดทานของระบบสายพานเกียร์ได้อย่างดีเยี่ยม ยืดอายุเกียร์ออโต้",
+    "priceRange": { "min": 1350, "max": 1850 },
+    "image": "/images/parts/cvt-fluid.jpg",
+    "changeInterval": "ทุก 40,000 กม. หรือเปลี่ยนถ่ายปีละครั้งเพื่อรักษาประสิทธิภาพเกียร์",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/cvtfluid-shopee",
+      "lazada": "https://www.lazada.co.th/products/cvtfluid-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["น้ำมันเกียร์", "ระบบเกียร์", "CVT"]
+  },
+  {
+    "id": "tc-trn-002",
+    "nameEn": "Drive Shaft Assembly Left",
+    "nameTh": "เพลาขับหน้าข้างซ้าย",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "GSP / NKN",
+    "partNumber": "43420-06390",
+    "category": "transmission",
+    "subcategory": "drive_shaft",
+    "description": "เพลาขับแท้ประกอบสำเร็จรูปสำหรับ Toyota Camry เพิ่มความมั่นใจในการขับขี่ ขับเคลื่อนส่งกำลังทอร์คเงียบ ไร้เสียงกังวล",
+    "priceRange": { "min": 3500, "max": 9800 },
+    "image": "/images/parts/drive-shaft.jpg",
+    "changeInterval": "เมื่อหัวเพลาขับหลวม เสียงดังเวลาเลี้ยว หรือยางหุ้มเพลาฉีกขาดชำรุด",
+    "difficulty": "ยาก",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/driveshaft-shopee",
+      "lazada": "https://www.lazada.co.th/products/driveshaft-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["เพลาขับ", "ระบบเกียร์", "ช่วงล่าง"]
+  }
+]

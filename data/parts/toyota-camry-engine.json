@@ -1,0 +1,128 @@
+[
+  {
+    "id": "tc-eng-001",
+    "nameEn": "Engine Oil Filter",
+    "nameTh": "กรองน้ำมันเครื่อง",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Denso / Bosch",
+    "partNumber": "90915-YZZD2",
+    "category": "engine",
+    "subcategory": "filter",
+    "description": "กรองน้ำมันเครื่องแท้ศูนย์ Toyota เหมาะสำหรับ Camry ทุกรุ่นปี 2018-2024 กรองสิ่งสกปรกออกจากน้ำมันเครื่องได้อย่างมีประสิทธิภาพ",
+    "priceRange": { "min": 150, "max": 450 },
+    "image": "/images/parts/oil-filter.jpg",
+    "changeInterval": "ทุก 5,000-10,000 กม. หรือตามระยะที่กำหนด",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/6KPiGJGC9j",
+      "lazada": "https://www.lazada.co.th/products/i1234567.html"
+    },
+    "relatedArticle": "/blog/วิธีเปลี่ยนกรองน้ำมันเครื่อง-toyota-camry",
+    "tags": ["กรองน้ำมัน", "บำรุงรักษา", "เครื่องยนต์"]
+  },
+  {
+    "id": "tc-eng-002",
+    "nameEn": "Air Filter",
+    "nameTh": "กรองอากาศ",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "K&N / Denso",
+    "partNumber": "17801-0V020",
+    "category": "engine",
+    "subcategory": "filter",
+    "description": "กรองอากาศเครื่องยนต์แท้ ป้องกันฝุ่นละอองเข้าสู่เครื่องยนต์ ช่วยให้อัตราสิ้นเปลืองน้ำมันดีขึ้น",
+    "priceRange": { "min": 350, "max": 1200 },
+    "image": "/images/parts/air-filter.jpg",
+    "changeInterval": "ทุก 40,000 กม. หรือตามสภาพ",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/7ABcDEfGhi",
+      "lazada": "https://www.lazada.co.th/products/i2345678.html"
+    },
+    "relatedArticle": "/blog/วิธีเปลี่ยนกรองอากาศ-toyota-camry",
+    "tags": ["กรองอากาศ", "บำรุงรักษา", "เครื่องยนต์"]
+  },
+  {
+    "id": "tc-eng-003",
+    "nameEn": "Spark Plug",
+    "nameTh": "หัวเทียน",
+    "brand": "Denso",
+    "aftermarketBrand": "NGK / Bosch",
+    "partNumber": "SK20HR11",
+    "category": "engine",
+    "subcategory": "ignition",
+    "description": "หัวเทียน Iridium สำหรับ Toyota Camry ให้ประกายไฟที่แม่นยำ ประหยัดน้ำมัน และอายุการใช้งานยาวนาน",
+    "priceRange": { "min": 250, "max": 850 },
+    "image": "/images/parts/spark-plug.jpg",
+    "changeInterval": "ทุก 100,000 กม. (Iridium) หรือ 30,000 กม. (Copper)",
+    "difficulty": "ปานกลาง",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/8BCdEFgHij",
+      "lazada": "https://www.lazada.co.th/products/i3456789.html"
+    },
+    "relatedArticle": "/blog/วิธีเปลี่ยนหัวเทียน-toyota-camry",
+    "tags": ["หัวเทียน", "ระบบจุดระเบิด", "เครื่องยนต์"]
+  },
+  {
+    "id": "tc-eng-004",
+    "nameEn": "Timing Belt / Chain Kit",
+    "nameTh": "โซ่ราวลิ้น / ชุดสายพาน",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Dayco / Gates",
+    "partNumber": "13506-28010",
+    "category": "engine",
+    "subcategory": "timing",
+    "description": "ชุดโซ่ราวลิ้นพร้อมอุปกรณ์ครบชุด ช่วยให้การทำงานของเครื่องยนต์ราบรื่นและแม่นยำ",
+    "priceRange": { "min": 2500, "max": 8000 },
+    "image": "/images/parts/timing-chain.jpg",
+    "changeInterval": "ตรวจสอบทุก 60,000 กม.",
+    "difficulty": "ยาก",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/9CDeFGhIjk",
+      "lazada": "https://www.lazada.co.th/products/i4567890.html"
+    },
+    "relatedArticle": "/blog/ตรวจสอบโซ่ราวลิ้น-toyota-camry",
+    "tags": ["โซ่ราวลิ้น", "สายพาน", "เครื่องยนต์"]
+  },
+  {
+    "id": "tc-eng-005",
+    "nameEn": "Engine Mount",
+    "nameTh": "ยางแท่นเครื่อง",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Monroe / KYB",
+    "partNumber": "12361-28210",
+    "category": "engine",
+    "subcategory": "mount",
+    "description": "ยางแท่นเครื่องช่วยลดการสั่นสะเทือนของเครื่องยนต์ไม่ให้ส่งมาถึงตัวรถ",
+    "priceRange": { "min": 800, "max": 2500 },
+    "image": "/images/parts/engine-mount.jpg",
+    "changeInterval": "ตรวจสอบทุก 60,000 กม. หรือเมื่อรู้สึกสั่น",
+    "difficulty": "ยาก",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/ADeFGhiJkl",
+      "lazada": "https://www.lazada.co.th/products/i5678901.html"
+    },
+    "relatedArticle": null,
+    "tags": ["แท่นเครื่อง", "เครื่องยนต์", "การสั่นสะเทือน"]
+  },
+  {
+    "id": "tc-eng-006",
+    "nameEn": "Engine Oil (5W-30 Synthetic)",
+    "nameTh": "น้ำมันเครื่อง 5W-30 สังเคราะห์",
+    "brand": "Toyota Genuine Motor Oil",
+    "aftermarketBrand": "Castrol / Mobil 1 / Shell Helix",
+    "partNumber": "08880-83266",
+    "category": "engine",
+    "subcategory": "fluid",
+    "description": "น้ำมันเครื่องสังเคราะห์แท้ Toyota 5W-30 เหมาะสำหรับเครื่องยนต์ Camry ทุกรุ่น ช่วยลดการสึกหรอ",
+    "priceRange": { "min": 350, "max": 1800 },
+    "image": "/images/parts/engine-oil.jpg",
+    "changeInterval": "ทุก 10,000 กม. หรือ 6 เดือน",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/BEfGHiJKlm",
+      "lazada": "https://www.lazada.co.th/products/i6789012.html"
+    },
+    "relatedArticle": "/blog/วิธีเปลี่ยนถ่ายน้ำมันเครื่อง-toyota-camry",
+    "tags": ["น้ำมันเครื่อง", "บำรุงรักษา", "เครื่องยนต์"]
+  }
+]

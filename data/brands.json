@@ -1,0 +1,6074 @@
+[
+  {
+    "id": "toyota",
+    "name": "Toyota",
+    "nameTh": "โตโยต้า",
+    "logo": "/images/brands/toyota-logo-1989-download.png",
+    "color": "#EB0A1E",
+    "description": "แบรนด์รถยนต์อันดับ 1 ในประเทศไทย ครองส่วนแบ่งตลาดมากกว่า 30%",
+    "popularModels": [
+      "camry",
+      "fortuner",
+      "hilux-revo",
+      "yaris",
+      "corolla-cross"
+    ],
+    "models": [
+      {
+        "id": "camry",
+        "name": "Camry",
+        "nameTh": "คัมรี่",
+        "year": "2018-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "fortuner",
+        "name": "Fortuner",
+        "nameTh": "ฟอร์จูนเนอร์",
+        "year": "2015-2024",
+        "type": "suv"
+      },
+      {
+        "id": "hilux-revo",
+        "name": "Hilux Revo",
+        "nameTh": "ไฮลักซ์ รีโว่",
+        "year": "2015-2024",
+        "type": "pickup"
+      },
+      {
+        "id": "yaris",
+        "name": "Yaris",
+        "nameTh": "ยาริส",
+        "year": "2013-2024",
+        "type": "hatchback"
+      },
+      {
+        "id": "corolla-cross",
+        "name": "Corolla Cross",
+        "nameTh": "โครอลล่า ครอส",
+        "year": "2020-2024",
+        "type": "suv"
+      },
+      {
+        "id": "innova",
+        "name": "Innova",
+        "nameTh": "อินโนว่า",
+        "year": "2016-2024",
+        "type": "mpv"
+      },
+      {
+        "id": "vios",
+        "name": "Vios",
+        "nameTh": "วีออส",
+        "year": "2013-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "4runner",
+        "name": "4RUNNER",
+        "nameTh": "4RUNNER",
+        "year": "1995-1995",
+        "type": "suv"
+      },
+      {
+        "id": "86-gt",
+        "name": "86 GT",
+        "nameTh": "86 GT",
+        "year": "2012-2013",
+        "type": "coupe"
+      },
+      {
+        "id": "alphard",
+        "name": "ALPHARD",
+        "nameTh": "ALPHARD",
+        "year": "2003-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "avanza",
+        "name": "AVANZA",
+        "nameTh": "AVANZA",
+        "year": "2004-2022",
+        "type": "sedan"
+      },
+      {
+        "id": "bb",
+        "name": "bB",
+        "nameTh": "bB",
+        "year": "2008-2010",
+        "type": "hatchback"
+      },
+      {
+        "id": "bz4x",
+        "name": "bZ4X",
+        "nameTh": "bZ4X",
+        "year": "2023-2026",
+        "type": "suv"
+      },
+      {
+        "id": "c-hr",
+        "name": "C-HR",
+        "nameTh": "C-HR",
+        "year": "2018-2023",
+        "type": "suv"
+      },
+      {
+        "id": "celica",
+        "name": "CELICA",
+        "nameTh": "CELICA",
+        "year": "1994-1997",
+        "type": "coupe"
+      },
+      {
+        "id": "commuter",
+        "name": "Commuter",
+        "nameTh": "Commuter",
+        "year": "2019-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "corolla",
+        "name": "COROLLA",
+        "nameTh": "COROLLA",
+        "year": "1970-1999",
+        "type": "coupe"
+      },
+      {
+        "id": "corolla-altis",
+        "name": "Corolla Altis",
+        "nameTh": "Corolla Altis",
+        "year": "2002-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "corona",
+        "name": "CORONA",
+        "nameTh": "CORONA",
+        "year": "1967-1999",
+        "type": "sedan"
+      },
+      {
+        "id": "crown",
+        "name": "CROWN",
+        "nameTh": "CROWN",
+        "year": "2005-2026",
+        "type": "hatchback"
+      },
+      {
+        "id": "esquire",
+        "name": "ESQUIRE",
+        "nameTh": "ESQUIRE",
+        "year": "2015-2019",
+        "type": "sedan"
+      },
+      {
+        "id": "estima",
+        "name": "ESTIMA",
+        "nameTh": "ESTIMA",
+        "year": "2000-2019",
+        "type": "sedan"
+      },
+      {
+        "id": "gr-86",
+        "name": "GR 86",
+        "nameTh": "GR 86",
+        "year": "2022-2026",
+        "type": "coupe"
+      },
+      {
+        "id": "granvia",
+        "name": "GRANVIA",
+        "nameTh": "GRANVIA",
+        "year": "2001-2001",
+        "type": "sedan"
+      },
+      {
+        "id": "gr-corolla",
+        "name": "GR Corolla",
+        "nameTh": "GR Corolla",
+        "year": "2026-2026",
+        "type": "hatchback"
+      },
+      {
+        "id": "gr-supra",
+        "name": "GR Supra",
+        "nameTh": "GR Supra",
+        "year": "2019-2026",
+        "type": "coupe"
+      },
+      {
+        "id": "gr-yaris",
+        "name": "GR Yaris",
+        "nameTh": "GR Yaris",
+        "year": "2021-2026",
+        "type": "hatchback"
+      },
+      {
+        "id": "harrier",
+        "name": "HARRIER",
+        "nameTh": "HARRIER",
+        "year": "2000-2026",
+        "type": "suv"
+      },
+      {
+        "id": "hiace",
+        "name": "HIACE",
+        "nameTh": "HIACE",
+        "year": "1993-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "hilux",
+        "name": "HILUX",
+        "nameTh": "HILUX",
+        "year": "1991-1991",
+        "type": "pickup"
+      },
+      {
+        "id": "hilux-champ",
+        "name": "Hilux Champ",
+        "nameTh": "Hilux Champ",
+        "year": "2023-2026",
+        "type": "pickup"
+      },
+      {
+        "id": "hilux-mighty-x",
+        "name": "HILUX MIGHTY-X",
+        "nameTh": "HILUX MIGHTY-X",
+        "year": "1991-1998",
+        "type": "pickup"
+      },
+      {
+        "id": "hilux-tiger",
+        "name": "HILUX TIGER",
+        "nameTh": "HILUX TIGER",
+        "year": "2003-2004",
+        "type": "pickup"
+      },
+      {
+        "id": "hilux-travo",
+        "name": "Hilux Travo",
+        "nameTh": "Hilux Travo",
+        "year": "2025-2026",
+        "type": "pickup"
+      },
+      {
+        "id": "hilux-vigo",
+        "name": "HILUX VIGO",
+        "nameTh": "HILUX VIGO",
+        "year": "2005-2015",
+        "type": "pickup"
+      },
+      {
+        "id": "kluger",
+        "name": "KLUGER",
+        "nameTh": "KLUGER",
+        "year": "2004-2004",
+        "type": "sedan"
+      },
+      {
+        "id": "land-cruiser",
+        "name": "LAND CRUISER",
+        "nameTh": "LAND CRUISER",
+        "year": "1989-2026",
+        "type": "pickup"
+      },
+      {
+        "id": "landcruiser-prado",
+        "name": "Landcruiser Prado",
+        "nameTh": "Landcruiser Prado",
+        "year": "1996-2026",
+        "type": "suv"
+      },
+      {
+        "id": "majesty",
+        "name": "Majesty",
+        "nameTh": "Majesty",
+        "year": "2019-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "mr2",
+        "name": "MR2",
+        "nameTh": "MR2",
+        "year": "1993-1993",
+        "type": "coupe"
+      },
+      {
+        "id": "noah",
+        "name": "NOAH",
+        "nameTh": "NOAH",
+        "year": "2024-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "prius",
+        "name": "PRIUS",
+        "nameTh": "PRIUS",
+        "year": "2011-2026",
+        "type": "hatchback"
+      },
+      {
+        "id": "rav4",
+        "name": "RAV4",
+        "nameTh": "RAV4",
+        "year": "2001-2008",
+        "type": "suv"
+      },
+      {
+        "id": "sienta",
+        "name": "SIENTA",
+        "nameTh": "SIENTA",
+        "year": "2016-2023",
+        "type": "sedan"
+      },
+      {
+        "id": "sport-cruiser",
+        "name": "Sport Cruiser",
+        "nameTh": "Sport Cruiser",
+        "year": "2002-2003",
+        "type": "pickup"
+      },
+      {
+        "id": "sport-rider",
+        "name": "Sport Rider",
+        "nameTh": "Sport Rider",
+        "year": "1999-2004",
+        "type": "suv"
+      },
+      {
+        "id": "sprinter-trueno",
+        "name": "Sprinter Trueno",
+        "nameTh": "Sprinter Trueno",
+        "year": "1986-1986",
+        "type": "coupe"
+      },
+      {
+        "id": "vanguard",
+        "name": "VANGUARD",
+        "nameTh": "VANGUARD",
+        "year": "2008-2008",
+        "type": "suv"
+      },
+      {
+        "id": "vellfire",
+        "name": "VELLFIRE",
+        "nameTh": "VELLFIRE",
+        "year": "2009-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "veloz",
+        "name": "Veloz",
+        "nameTh": "Veloz",
+        "year": "2022-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "ventury",
+        "name": "VENTURY",
+        "nameTh": "VENTURY",
+        "year": "2006-2019",
+        "type": "sedan"
+      },
+      {
+        "id": "vitz",
+        "name": "VITZ",
+        "nameTh": "VITZ",
+        "year": "2000-2000",
+        "type": "hatchback"
+      },
+      {
+        "id": "voxy",
+        "name": "VOXY",
+        "nameTh": "VOXY",
+        "year": "2004-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "wish",
+        "name": "WISH",
+        "nameTh": "WISH",
+        "year": "2004-2010",
+        "type": "sedan"
+      },
+      {
+        "id": "yaris-ativ",
+        "name": "Yaris Ativ",
+        "nameTh": "Yaris Ativ",
+        "year": "2017-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "yaris-cross",
+        "name": "Yaris Cross",
+        "nameTh": "Yaris Cross",
+        "year": "2023-2026",
+        "type": "suv"
+      }
+    ]
+  },
+  {
+    "id": "honda",
+    "name": "Honda",
+    "nameTh": "ฮอนด้า",
+    "logo": "/images/brands/honda-logo-2000-full-red-download.png",
+    "color": "#E40521",
+    "description": "แบรนด์รถยนต์สัญชาติญี่ปุ่น ที่ได้รับความนิยมสูงในไทย",
+    "popularModels": [
+      "civic",
+      "city",
+      "hrv",
+      "crv",
+      "jazz"
+    ],
+    "models": [
+      {
+        "id": "civic",
+        "name": "Civic",
+        "nameTh": "ซีวิค",
+        "year": "2016-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "city",
+        "name": "City",
+        "nameTh": "ซิตี้",
+        "year": "2014-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "hrv",
+        "name": "HR-V",
+        "nameTh": "เอชอาร์-วี",
+        "year": "2015-2024",
+        "type": "suv"
+      },
+      {
+        "id": "crv",
+        "name": "CR-V",
+        "nameTh": "ซีอาร์-วี",
+        "year": "2017-2024",
+        "type": "suv"
+      },
+      {
+        "id": "jazz",
+        "name": "Jazz",
+        "nameTh": "แจ๊ส",
+        "year": "2014-2020",
+        "type": "hatchback"
+      },
+      {
+        "id": "accord",
+        "name": "Accord",
+        "nameTh": "แอคคอร์ด",
+        "year": "2019-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "br-v",
+        "name": "BR-V",
+        "nameTh": "BR-V",
+        "year": "2016-2024",
+        "type": "suv"
+      },
+      {
+        "id": "brio",
+        "name": "Brio",
+        "nameTh": "Brio",
+        "year": "2011-2019",
+        "type": "hatchback"
+      },
+      {
+        "id": "cr-v",
+        "name": "CR-V",
+        "nameTh": "CR-V",
+        "year": "2000-2025",
+        "type": "suv"
+      },
+      {
+        "id": "crossroad",
+        "name": "CROSSROAD",
+        "nameTh": "CROSSROAD",
+        "year": "2009-2009",
+        "type": "sedan"
+      },
+      {
+        "id": "e",
+        "name": "e",
+        "nameTh": "e",
+        "year": "2020-2020",
+        "type": "hatchback"
+      },
+      {
+        "id": "e-n1",
+        "name": "e:N1",
+        "nameTh": "e:N1",
+        "year": "2025-2025",
+        "type": "suv"
+      },
+      {
+        "id": "edix",
+        "name": "EDIX",
+        "nameTh": "EDIX",
+        "year": "2004-2004",
+        "type": "sedan"
+      },
+      {
+        "id": "freed",
+        "name": "FREED",
+        "nameTh": "FREED",
+        "year": "2009-2015",
+        "type": "sedan"
+      },
+      {
+        "id": "hr-v",
+        "name": "HR-V",
+        "nameTh": "HR-V",
+        "year": "2014-2026",
+        "type": "suv"
+      },
+      {
+        "id": "integra",
+        "name": "INTEGRA",
+        "nameTh": "INTEGRA",
+        "year": "2003-2004",
+        "type": "coupe"
+      },
+      {
+        "id": "life-dunk",
+        "name": "Life Dunk",
+        "nameTh": "Life Dunk",
+        "year": "2002-2002",
+        "type": "hatchback"
+      },
+      {
+        "id": "mobilio",
+        "name": "MOBILIO",
+        "nameTh": "MOBILIO",
+        "year": "2014-2021",
+        "type": "sedan"
+      },
+      {
+        "id": "n-box",
+        "name": "N-BOX",
+        "nameTh": "N-BOX",
+        "year": "2024-2024",
+        "type": "hatchback"
+      },
+      {
+        "id": "nsx",
+        "name": "NSX",
+        "nameTh": "NSX",
+        "year": "1992-2021",
+        "type": "coupe"
+      },
+      {
+        "id": "odyssey",
+        "name": "ODYSSEY",
+        "nameTh": "ODYSSEY",
+        "year": "2000-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "prelude",
+        "name": "PRELUDE",
+        "nameTh": "PRELUDE",
+        "year": "1992-2026",
+        "type": "coupe"
+      },
+      {
+        "id": "s660",
+        "name": "S660",
+        "nameTh": "S660",
+        "year": "2022-2023",
+        "type": "convertible"
+      },
+      {
+        "id": "stepwgn",
+        "name": "STEPWGN",
+        "nameTh": "STEPWGN",
+        "year": "2006-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "stream",
+        "name": "STREAM",
+        "nameTh": "STREAM",
+        "year": "2003-2003",
+        "type": "sedan"
+      },
+      {
+        "id": "wr-v",
+        "name": "WR-V",
+        "nameTh": "WR-V",
+        "year": "2023-2025",
+        "type": "suv"
+      }
+    ]
+  },
+  {
+    "id": "isuzu",
+    "name": "Isuzu",
+    "nameTh": "อีซูซุ",
+    "logo": "/images/brands/Isuzu-logo-1991-3840x2160.png",
+    "color": "#003087",
+    "description": "ผู้นำตลาดรถกระบะในประเทศไทย ด้วย D-Max ที่ขายดีที่สุด",
+    "popularModels": [
+      "d-max",
+      "mu-x"
+    ],
+    "models": [
+      {
+        "id": "d-max",
+        "name": "D-Max",
+        "nameTh": "ดี-แม็กซ์",
+        "year": "2012-2024",
+        "type": "pickup"
+      },
+      {
+        "id": "mu-x",
+        "name": "MU-X",
+        "nameTh": "เอ็มยู-เอ็กซ์",
+        "year": "2013-2024",
+        "type": "suv"
+      },
+      {
+        "id": "adventure-master",
+        "name": "Adventure Master",
+        "nameTh": "Adventure Master",
+        "year": "2004-2004",
+        "type": "sedan"
+      },
+      {
+        "id": "cameo",
+        "name": "CAMEO",
+        "nameTh": "CAMEO",
+        "year": "1993-1993",
+        "type": "sedan"
+      },
+      {
+        "id": "dragon-eyes",
+        "name": "Dragon Eyes",
+        "nameTh": "Dragon Eyes",
+        "year": "1997-2001",
+        "type": "pickup"
+      },
+      {
+        "id": "dragon-power",
+        "name": "DRAGON POWER",
+        "nameTh": "DRAGON POWER",
+        "year": "2001-2002",
+        "type": "pickup"
+      },
+      {
+        "id": "elf",
+        "name": "ELF",
+        "nameTh": "ELF",
+        "year": "2011-2023",
+        "type": "sedan"
+      },
+      {
+        "id": "mu-7",
+        "name": "MU-7",
+        "nameTh": "MU-7",
+        "year": "2006-2014",
+        "type": "suv"
+      },
+      {
+        "id": "tfr",
+        "name": "TFR",
+        "nameTh": "TFR",
+        "year": "1994-1996",
+        "type": "pickup"
+      }
+    ]
+  },
+  {
+    "id": "mazda",
+    "name": "Mazda",
+    "nameTh": "มาสด้า",
+    "logo": "/images/brands/mazda-logo-2018-vertical-download.png",
+    "color": "#1B1C20",
+    "description": "แบรนด์รถยนต์ญี่ปุ่นที่เน้นดีไซน์สวยงามและเทคโนโลยี SkyActiv",
+    "popularModels": [
+      "cx5",
+      "cx3",
+      "mazda2",
+      "mazda3"
+    ],
+    "models": [
+      {
+        "id": "cx5",
+        "name": "CX-5",
+        "nameTh": "ซีเอ็กซ์-5",
+        "year": "2017-2024",
+        "type": "suv"
+      },
+      {
+        "id": "cx3",
+        "name": "CX-3",
+        "nameTh": "ซีเอ็กซ์-3",
+        "year": "2015-2024",
+        "type": "suv"
+      },
+      {
+        "id": "mazda2",
+        "name": "Mazda2",
+        "nameTh": "มาสด้า 2",
+        "year": "2015-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "mazda3",
+        "name": "Mazda3",
+        "nameTh": "มาสด้า 3",
+        "year": "2019-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "2",
+        "name": "2",
+        "nameTh": "2",
+        "year": "2009-2026",
+        "type": "hatchback"
+      },
+      {
+        "id": "3",
+        "name": "3",
+        "nameTh": "3",
+        "year": "2004-2024",
+        "type": "hatchback"
+      },
+      {
+        "id": "323",
+        "name": "323",
+        "nameTh": "323",
+        "year": "1998-1998",
+        "type": "sedan"
+      },
+      {
+        "id": "626",
+        "name": "626",
+        "nameTh": "626",
+        "year": "1994-1994",
+        "type": "sedan"
+      },
+      {
+        "id": "bt-50",
+        "name": "BT-50",
+        "nameTh": "BT-50",
+        "year": "2009-2024",
+        "type": "pickup"
+      },
+      {
+        "id": "bt-50-pro",
+        "name": "BT-50 PRO",
+        "nameTh": "BT-50 PRO",
+        "year": "2012-2020",
+        "type": "pickup"
+      },
+      {
+        "id": "cx-3",
+        "name": "CX-3",
+        "nameTh": "CX-3",
+        "year": "2015-2024",
+        "type": "suv"
+      },
+      {
+        "id": "cx-5",
+        "name": "CX-5",
+        "nameTh": "CX-5",
+        "year": "2013-2023",
+        "type": "suv"
+      },
+      {
+        "id": "cx-8",
+        "name": "CX-8",
+        "nameTh": "CX-8",
+        "year": "2019-2024",
+        "type": "suv"
+      },
+      {
+        "id": "cx-9",
+        "name": "CX-9",
+        "nameTh": "CX-9",
+        "year": "2009-2010",
+        "type": "suv"
+      },
+      {
+        "id": "cx-30",
+        "name": "CX-30",
+        "nameTh": "CX-30",
+        "year": "2020-2025",
+        "type": "suv"
+      },
+      {
+        "id": "familia",
+        "name": "FAMILIA",
+        "nameTh": "FAMILIA",
+        "year": "1989-1989",
+        "type": "pickup"
+      },
+      {
+        "id": "fighter",
+        "name": "FIGHTER",
+        "nameTh": "FIGHTER",
+        "year": "2000-2005",
+        "type": "pickup"
+      },
+      {
+        "id": "mx-5",
+        "name": "MX-5",
+        "nameTh": "MX-5",
+        "year": "2002-2026",
+        "type": "convertible"
+      },
+      {
+        "id": "rx-8",
+        "name": "RX-8",
+        "nameTh": "RX-8",
+        "year": "2003-2010",
+        "type": "coupe"
+      },
+      {
+        "id": "tribute",
+        "name": "TRIBUTE",
+        "nameTh": "TRIBUTE",
+        "year": "2003-2003",
+        "type": "suv"
+      }
+    ]
+  },
+  {
+    "id": "ford",
+    "name": "Ford",
+    "nameTh": "ฟอร์ด",
+    "logo": "/images/brands/ford-logo-2017-download.png",
+    "color": "#003478",
+    "description": "แบรนด์รถยนต์อเมริกัน ผู้ผลิต Ranger กระบะยอดนิยมในไทย",
+    "popularModels": [
+      "ranger",
+      "everest"
+    ],
+    "models": [
+      {
+        "id": "ranger",
+        "name": "Ranger",
+        "nameTh": "เรนเจอร์",
+        "year": "2015-2024",
+        "type": "pickup"
+      },
+      {
+        "id": "everest",
+        "name": "Everest",
+        "nameTh": "เอเวอร์เรสต์",
+        "year": "2015-2024",
+        "type": "suv"
+      },
+      {
+        "id": "ecosport",
+        "name": "ECOSPORT",
+        "nameTh": "ECOSPORT",
+        "year": "2014-2017",
+        "type": "suv"
+      },
+      {
+        "id": "escape",
+        "name": "ESCAPE",
+        "nameTh": "ESCAPE",
+        "year": "2003-2010",
+        "type": "suv"
+      },
+      {
+        "id": "fiesta",
+        "name": "FIESTA",
+        "nameTh": "FIESTA",
+        "year": "2011-2015",
+        "type": "hatchback"
+      },
+      {
+        "id": "focus",
+        "name": "FOCUS",
+        "nameTh": "FOCUS",
+        "year": "2011-2018",
+        "type": "hatchback"
+      },
+      {
+        "id": "mustang",
+        "name": "MUSTANG",
+        "nameTh": "MUSTANG",
+        "year": "1964-2026",
+        "type": "coupe"
+      },
+      {
+        "id": "mustang-mach-e",
+        "name": "Mustang Mach-E",
+        "nameTh": "Mustang Mach-E",
+        "year": "2021-2022",
+        "type": "suv"
+      }
+    ]
+  },
+  {
+    "id": "mitsubishi",
+    "name": "Mitsubishi",
+    "nameTh": "มิตซูบิชิ",
+    "logo": "/images/brands/Mitsubishi-logo-2000x2500.png",
+    "color": "#E4002B",
+    "description": "แบรนด์รถยนต์ญี่ปุ่นที่ได้รับความนิยมจาก Pajero Sport และ Triton",
+    "popularModels": [
+      "pajero-sport",
+      "triton",
+      "attrage",
+      "outlander"
+    ],
+    "models": [
+      {
+        "id": "pajero-sport",
+        "name": "Pajero Sport",
+        "nameTh": "ปาเจโร่ สปอร์ต",
+        "year": "2015-2024",
+        "type": "suv"
+      },
+      {
+        "id": "triton",
+        "name": "Triton",
+        "nameTh": "ไทรทัน",
+        "year": "2015-2024",
+        "type": "pickup"
+      },
+      {
+        "id": "attrage",
+        "name": "Attrage",
+        "nameTh": "แอทเทรจ",
+        "year": "2013-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "outlander",
+        "name": "Outlander",
+        "nameTh": "เอาท์แลนเดอร์",
+        "year": "2013-2024",
+        "type": "suv"
+      },
+      {
+        "id": "airtrek",
+        "name": "AIRTREK",
+        "nameTh": "AIRTREK",
+        "year": "2001-2005",
+        "type": "sedan"
+      },
+      {
+        "id": "canter",
+        "name": "CANTER",
+        "nameTh": "CANTER",
+        "year": "2005-2005",
+        "type": "sedan"
+      },
+      {
+        "id": "colt",
+        "name": "COLT",
+        "nameTh": "COLT",
+        "year": "1992-1992",
+        "type": "hatchback"
+      },
+      {
+        "id": "delica-space-wagon",
+        "name": "Delica Space Wagon",
+        "nameTh": "Delica Space Wagon",
+        "year": "2015-2015",
+        "type": "sedan"
+      },
+      {
+        "id": "evolution",
+        "name": "EVOLUTION",
+        "nameTh": "EVOLUTION",
+        "year": "1998-2007",
+        "type": "sedan"
+      },
+      {
+        "id": "i",
+        "name": "i",
+        "nameTh": "i",
+        "year": "2011-2011",
+        "type": "hatchback"
+      },
+      {
+        "id": "lancer",
+        "name": "LANCER",
+        "nameTh": "LANCER",
+        "year": "1977-2010",
+        "type": "sedan"
+      },
+      {
+        "id": "lancer-ex",
+        "name": "Lancer EX",
+        "nameTh": "Lancer EX",
+        "year": "2011-2013",
+        "type": "sedan"
+      },
+      {
+        "id": "mirage",
+        "name": "MIRAGE",
+        "nameTh": "MIRAGE",
+        "year": "2012-2025",
+        "type": "hatchback"
+      },
+      {
+        "id": "outlander-phev",
+        "name": "Outlander PHEV",
+        "nameTh": "Outlander PHEV",
+        "year": "2021-2022",
+        "type": "suv"
+      },
+      {
+        "id": "pajero",
+        "name": "PAJERO",
+        "nameTh": "PAJERO",
+        "year": "1992-2005",
+        "type": "suv"
+      },
+      {
+        "id": "rvr",
+        "name": "RVR",
+        "nameTh": "RVR",
+        "year": "1997-1997",
+        "type": "sedan"
+      },
+      {
+        "id": "space-wagon",
+        "name": "SPACE WAGON",
+        "nameTh": "SPACE WAGON",
+        "year": "1995-2012",
+        "type": "sedan"
+      },
+      {
+        "id": "strada",
+        "name": "Strada",
+        "nameTh": "Strada",
+        "year": "2000-2004",
+        "type": "pickup"
+      },
+      {
+        "id": "strada-g-wagon",
+        "name": "Strada G-Wagon",
+        "nameTh": "Strada G-Wagon",
+        "year": "2002-2004",
+        "type": "sedan"
+      },
+      {
+        "id": "xforce-hev",
+        "name": "Xforce HEV",
+        "nameTh": "Xforce HEV",
+        "year": "2025-2026",
+        "type": "suv"
+      },
+      {
+        "id": "xpander",
+        "name": "Xpander",
+        "nameTh": "Xpander",
+        "year": "2018-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "xpander-cross",
+        "name": "Xpander Cross",
+        "nameTh": "Xpander Cross",
+        "year": "2020-2026",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "bmw",
+    "name": "BMW",
+    "nameTh": "บีเอ็มดับเบิลยู",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ BMW อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "116i",
+        "name": "116i",
+        "nameTh": "116i",
+        "year": "2013-2015",
+        "type": "hatchback"
+      },
+      {
+        "id": "118i",
+        "name": "118i",
+        "nameTh": "118i",
+        "year": "2015-2019",
+        "type": "hatchback"
+      },
+      {
+        "id": "218i",
+        "name": "218i",
+        "nameTh": "218i",
+        "year": "2015-2020",
+        "type": "hatchback"
+      },
+      {
+        "id": "220",
+        "name": "220",
+        "nameTh": "220",
+        "year": "2025-2026",
+        "type": "coupe"
+      },
+      {
+        "id": "220i",
+        "name": "220i",
+        "nameTh": "220i",
+        "year": "2014-2025",
+        "type": "coupe"
+      },
+      {
+        "id": "316i",
+        "name": "316i",
+        "nameTh": "316i",
+        "year": "1982-2015",
+        "type": "coupe"
+      },
+      {
+        "id": "318i",
+        "name": "318i",
+        "nameTh": "318i",
+        "year": "1984-2016",
+        "type": "coupe"
+      },
+      {
+        "id": "320d",
+        "name": "320d",
+        "nameTh": "320d",
+        "year": "2008-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "320i",
+        "name": "320i",
+        "nameTh": "320i",
+        "year": "1980-2017",
+        "type": "convertible"
+      },
+      {
+        "id": "320li",
+        "name": "320Li",
+        "nameTh": "320Li",
+        "year": "2021-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "323i",
+        "name": "323i",
+        "nameTh": "323i",
+        "year": "2001-2002",
+        "type": "sedan"
+      },
+      {
+        "id": "325d",
+        "name": "325d",
+        "nameTh": "325d",
+        "year": "2014-2014",
+        "type": "sedan"
+      },
+      {
+        "id": "325i",
+        "name": "325i",
+        "nameTh": "325i",
+        "year": "1993-2009",
+        "type": "convertible"
+      },
+      {
+        "id": "328i",
+        "name": "328i",
+        "nameTh": "328i",
+        "year": "2013-2014",
+        "type": "sedan"
+      },
+      {
+        "id": "330e",
+        "name": "330e",
+        "nameTh": "330e",
+        "year": "2016-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "330i",
+        "name": "330i",
+        "nameTh": "330i",
+        "year": "2008-2020",
+        "type": "sedan"
+      },
+      {
+        "id": "330li",
+        "name": "330Li",
+        "nameTh": "330Li",
+        "year": "2021-2022",
+        "type": "sedan"
+      },
+      {
+        "id": "335i",
+        "name": "335i",
+        "nameTh": "335i",
+        "year": "2009-2009",
+        "type": "convertible"
+      },
+      {
+        "id": "420d",
+        "name": "420d",
+        "nameTh": "420d",
+        "year": "2013-2016",
+        "type": "convertible"
+      },
+      {
+        "id": "420i",
+        "name": "420i",
+        "nameTh": "420i",
+        "year": "2014-2024",
+        "type": "convertible"
+      },
+      {
+        "id": "430i",
+        "name": "430i",
+        "nameTh": "430i",
+        "year": "2017-2025",
+        "type": "convertible"
+      },
+      {
+        "id": "520d",
+        "name": "520d",
+        "nameTh": "520d",
+        "year": "2007-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "520i",
+        "name": "520i",
+        "nameTh": "520i",
+        "year": "2006-2016",
+        "type": "sedan"
+      },
+      {
+        "id": "523i",
+        "name": "523i",
+        "nameTh": "523i",
+        "year": "1998-2013",
+        "type": "sedan"
+      },
+      {
+        "id": "525d",
+        "name": "525d",
+        "nameTh": "525d",
+        "year": "2010-2016",
+        "type": "sedan"
+      },
+      {
+        "id": "525i",
+        "name": "525i",
+        "nameTh": "525i",
+        "year": "1994-2009",
+        "type": "sedan"
+      },
+      {
+        "id": "528i",
+        "name": "528i",
+        "nameTh": "528i",
+        "year": "1997-2016",
+        "type": "sedan"
+      },
+      {
+        "id": "530e",
+        "name": "530e",
+        "nameTh": "530e",
+        "year": "2017-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "530i",
+        "name": "530i",
+        "nameTh": "530i",
+        "year": "2006-2017",
+        "type": "sedan"
+      },
+      {
+        "id": "630d",
+        "name": "630d",
+        "nameTh": "630d",
+        "year": "2017-2019",
+        "type": "sedan"
+      },
+      {
+        "id": "630i",
+        "name": "630i",
+        "nameTh": "630i",
+        "year": "2005-2024",
+        "type": "coupe"
+      },
+      {
+        "id": "640d",
+        "name": "640d",
+        "nameTh": "640d",
+        "year": "2012-2012",
+        "type": "coupe"
+      },
+      {
+        "id": "730i",
+        "name": "730i",
+        "nameTh": "730i",
+        "year": "1992-2000",
+        "type": "sedan"
+      },
+      {
+        "id": "730il",
+        "name": "730iL",
+        "nameTh": "730iL",
+        "year": "1994-2000",
+        "type": "sedan"
+      },
+      {
+        "id": "730ld",
+        "name": "730Ld",
+        "nameTh": "730Ld",
+        "year": "2011-2021",
+        "type": "sedan"
+      },
+      {
+        "id": "730li",
+        "name": "730Li",
+        "nameTh": "730Li",
+        "year": "2004-2014",
+        "type": "sedan"
+      },
+      {
+        "id": "740d",
+        "name": "740d",
+        "nameTh": "740d",
+        "year": "2024-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "740il",
+        "name": "740iL",
+        "nameTh": "740iL",
+        "year": "1998-1998",
+        "type": "sedan"
+      },
+      {
+        "id": "740le",
+        "name": "740Le",
+        "nameTh": "740Le",
+        "year": "2016-2019",
+        "type": "sedan"
+      },
+      {
+        "id": "740li",
+        "name": "740Li",
+        "nameTh": "740Li",
+        "year": "2010-2018",
+        "type": "sedan"
+      },
+      {
+        "id": "745le",
+        "name": "745Le",
+        "nameTh": "745Le",
+        "year": "2019-2022",
+        "type": "sedan"
+      },
+      {
+        "id": "750e",
+        "name": "750e",
+        "nameTh": "750e",
+        "year": "2023-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "840d",
+        "name": "840d",
+        "nameTh": "840d",
+        "year": "2019-2019",
+        "type": "coupe"
+      },
+      {
+        "id": "2800",
+        "name": "2800",
+        "nameTh": "2800",
+        "year": "1968-1968",
+        "type": "sedan"
+      },
+      {
+        "id": "activehybrid-5",
+        "name": "ActiveHybrid 5",
+        "nameTh": "ActiveHybrid 5",
+        "year": "2013-2014",
+        "type": "sedan"
+      },
+      {
+        "id": "activehybrid-7-l",
+        "name": "ActiveHybrid 7 L",
+        "nameTh": "ActiveHybrid 7 L",
+        "year": "2013-2013",
+        "type": "sedan"
+      },
+      {
+        "id": "i3",
+        "name": "I3",
+        "nameTh": "I3",
+        "year": "2015-2020",
+        "type": "hatchback"
+      },
+      {
+        "id": "i4",
+        "name": "i4",
+        "nameTh": "i4",
+        "year": "2022-2024",
+        "type": "hatchback"
+      },
+      {
+        "id": "i5",
+        "name": "i5",
+        "nameTh": "i5",
+        "year": "2023-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "i7",
+        "name": "i7",
+        "nameTh": "i7",
+        "year": "2022-2022",
+        "type": "sedan"
+      },
+      {
+        "id": "i8",
+        "name": "I8",
+        "nameTh": "I8",
+        "year": "2015-2021",
+        "type": "convertible"
+      },
+      {
+        "id": "ix",
+        "name": "iX",
+        "nameTh": "iX",
+        "year": "2023-2023",
+        "type": "suv"
+      },
+      {
+        "id": "ix1",
+        "name": "iX1",
+        "nameTh": "iX1",
+        "year": "2025-2025",
+        "type": "suv"
+      },
+      {
+        "id": "ix3",
+        "name": "iX3",
+        "nameTh": "iX3",
+        "year": "2022-2024",
+        "type": "suv"
+      },
+      {
+        "id": "m2",
+        "name": "M2",
+        "nameTh": "M2",
+        "year": "2016-2026",
+        "type": "coupe"
+      },
+      {
+        "id": "m3",
+        "name": "M3",
+        "nameTh": "M3",
+        "year": "2002-2025",
+        "type": "convertible"
+      },
+      {
+        "id": "m4",
+        "name": "M4",
+        "nameTh": "M4",
+        "year": "2014-2022",
+        "type": "coupe"
+      },
+      {
+        "id": "m5",
+        "name": "M5",
+        "nameTh": "M5",
+        "year": "2007-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "m240i",
+        "name": "M240i",
+        "nameTh": "M240i",
+        "year": "2025-2025",
+        "type": "coupe"
+      },
+      {
+        "id": "m340i",
+        "name": "M340i",
+        "nameTh": "M340i",
+        "year": "2021-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "m440i",
+        "name": "M440i",
+        "nameTh": "M440i",
+        "year": "2022-2023",
+        "type": "coupe"
+      },
+      {
+        "id": "m760e",
+        "name": "M760e",
+        "nameTh": "M760e",
+        "year": "2024-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "x1",
+        "name": "X1",
+        "nameTh": "X1",
+        "year": "2011-2025",
+        "type": "suv"
+      },
+      {
+        "id": "x2",
+        "name": "X2",
+        "nameTh": "X2",
+        "year": "2018-2020",
+        "type": "suv"
+      },
+      {
+        "id": "x3",
+        "name": "X3",
+        "nameTh": "X3",
+        "year": "2007-2025",
+        "type": "suv"
+      },
+      {
+        "id": "x4",
+        "name": "X4",
+        "nameTh": "X4",
+        "year": "2014-2025",
+        "type": "suv"
+      },
+      {
+        "id": "x5",
+        "name": "X5",
+        "nameTh": "X5",
+        "year": "2002-2026",
+        "type": "suv"
+      },
+      {
+        "id": "x6",
+        "name": "X6",
+        "nameTh": "X6",
+        "year": "2009-2025",
+        "type": "suv"
+      },
+      {
+        "id": "x7",
+        "name": "X7",
+        "nameTh": "X7",
+        "year": "2020-2025",
+        "type": "suv"
+      },
+      {
+        "id": "xm",
+        "name": "XM",
+        "nameTh": "XM",
+        "year": "2023-2026",
+        "type": "suv"
+      },
+      {
+        "id": "z3",
+        "name": "Z3",
+        "nameTh": "Z3",
+        "year": "2000-2000",
+        "type": "convertible"
+      },
+      {
+        "id": "z4",
+        "name": "Z4",
+        "nameTh": "Z4",
+        "year": "2005-2025",
+        "type": "convertible"
+      }
+    ]
+  },
+  {
+    "id": "mercedes-benz",
+    "name": "Mercedes-Benz",
+    "nameTh": "เมอร์เซเดส-เบนซ์",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Mercedes-Benz อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "190e",
+        "name": "190E",
+        "nameTh": "190E",
+        "year": "1991-1994",
+        "type": "sedan"
+      },
+      {
+        "id": "190sl",
+        "name": "190SL",
+        "nameTh": "190SL",
+        "year": "1955-1955",
+        "type": "convertible"
+      },
+      {
+        "id": "220ce",
+        "name": "220CE",
+        "nameTh": "220CE",
+        "year": "1993-1994",
+        "type": "coupe"
+      },
+      {
+        "id": "220e",
+        "name": "220E",
+        "nameTh": "220E",
+        "year": "1993-1993",
+        "type": "sedan"
+      },
+      {
+        "id": "220te",
+        "name": "220TE",
+        "nameTh": "220TE",
+        "year": "1995-1995",
+        "type": "sedan"
+      },
+      {
+        "id": "230c",
+        "name": "230C",
+        "nameTh": "230C",
+        "year": "1989-1989",
+        "type": "coupe"
+      },
+      {
+        "id": "230e",
+        "name": "230E",
+        "nameTh": "230E",
+        "year": "1979-1992",
+        "type": "sedan"
+      },
+      {
+        "id": "230s",
+        "name": "230S",
+        "nameTh": "230S",
+        "year": "1968-1968",
+        "type": "sedan"
+      },
+      {
+        "id": "230te",
+        "name": "230TE",
+        "nameTh": "230TE",
+        "year": "1992-1992",
+        "type": "sedan"
+      },
+      {
+        "id": "280ce",
+        "name": "280CE",
+        "nameTh": "280CE",
+        "year": "1988-1988",
+        "type": "coupe"
+      },
+      {
+        "id": "280s",
+        "name": "280S",
+        "nameTh": "280S",
+        "year": "1972-1972",
+        "type": "sedan"
+      },
+      {
+        "id": "300cd",
+        "name": "300CD",
+        "nameTh": "300CD",
+        "year": "1985-1985",
+        "type": "coupe"
+      },
+      {
+        "id": "300e",
+        "name": "300E",
+        "nameTh": "300E",
+        "year": "1990-1993",
+        "type": "sedan"
+      },
+      {
+        "id": "300ge",
+        "name": "300GE",
+        "nameTh": "300GE",
+        "year": "1990-1990",
+        "type": "suv"
+      },
+      {
+        "id": "300sd",
+        "name": "300SD",
+        "nameTh": "300SD",
+        "year": "1984-1984",
+        "type": "sedan"
+      },
+      {
+        "id": "450sl",
+        "name": "450SL",
+        "nameTh": "450SL",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "450slc",
+        "name": "450SLC",
+        "nameTh": "450SLC",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "500sel",
+        "name": "500SEL",
+        "nameTh": "500SEL",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "500sl",
+        "name": "500SL",
+        "nameTh": "500SL",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "a170",
+        "name": "A170",
+        "nameTh": "A170",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "a180",
+        "name": "A180",
+        "nameTh": "A180",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "a200",
+        "name": "A200",
+        "nameTh": "A200",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "a250",
+        "name": "A250",
+        "nameTh": "A250",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "b180",
+        "name": "B180",
+        "nameTh": "B180",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "b200",
+        "name": "B200",
+        "nameTh": "B200",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c36",
+        "name": "C36",
+        "nameTh": "C36",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c43",
+        "name": "C43",
+        "nameTh": "C43",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c63",
+        "name": "C63",
+        "nameTh": "C63",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c63-s",
+        "name": "C63 S",
+        "nameTh": "C63 S",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c180",
+        "name": "C180",
+        "nameTh": "C180",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c180-kompressor",
+        "name": "C180 Kompressor",
+        "nameTh": "C180 Kompressor",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c200",
+        "name": "C200",
+        "nameTh": "C200",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c200-kompressor",
+        "name": "C200 Kompressor",
+        "nameTh": "C200 Kompressor",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c220",
+        "name": "C220",
+        "nameTh": "C220",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c230",
+        "name": "C230",
+        "nameTh": "C230",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c230-kompressor",
+        "name": "C230 Kompressor",
+        "nameTh": "C230 Kompressor",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c250",
+        "name": "C250",
+        "nameTh": "C250",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c300",
+        "name": "C300",
+        "nameTh": "C300",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "c350",
+        "name": "C350",
+        "nameTh": "C350",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cla35",
+        "name": "CLA35",
+        "nameTh": "CLA35",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cla45",
+        "name": "CLA45",
+        "nameTh": "CLA45",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cla180",
+        "name": "CLA180",
+        "nameTh": "CLA180",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cla200",
+        "name": "CLA200",
+        "nameTh": "CLA200",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cla250",
+        "name": "CLA250",
+        "nameTh": "CLA250",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cle53",
+        "name": "CLE53",
+        "nameTh": "CLE53",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cle300",
+        "name": "CLE300",
+        "nameTh": "CLE300",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "clk200",
+        "name": "CLK200",
+        "nameTh": "CLK200",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "clk200-kompressor",
+        "name": "CLK200 Kompressor",
+        "nameTh": "CLK200 Kompressor",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "clk230-kompressor",
+        "name": "CLK230 Kompressor",
+        "nameTh": "CLK230 Kompressor",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "clk240",
+        "name": "CLK240",
+        "nameTh": "CLK240",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cls53",
+        "name": "CLS53",
+        "nameTh": "CLS53",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cls220",
+        "name": "CLS220",
+        "nameTh": "CLS220",
+        "year": "2021-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "cls250",
+        "name": "CLS250",
+        "nameTh": "CLS250",
+        "year": "2011-2017",
+        "type": "coupe"
+      },
+      {
+        "id": "cls300",
+        "name": "CLS300",
+        "nameTh": "CLS300",
+        "year": "2018-2021",
+        "type": "sedan"
+      },
+      {
+        "id": "cls-350",
+        "name": "CLS 350",
+        "nameTh": "CLS 350",
+        "year": "2011-2011",
+        "type": "sedan"
+      },
+      {
+        "id": "cls350",
+        "name": "CLS350",
+        "nameTh": "CLS350",
+        "year": "2005-2012",
+        "type": "sedan"
+      },
+      {
+        "id": "e43",
+        "name": "E43",
+        "nameTh": "E43",
+        "year": "2018-2018",
+        "type": "sedan"
+      },
+      {
+        "id": "e53",
+        "name": "E53",
+        "nameTh": "E53",
+        "year": "2019-2020",
+        "type": "coupe"
+      },
+      {
+        "id": "e63",
+        "name": "E63",
+        "nameTh": "E63",
+        "year": "2012-2012",
+        "type": "sedan"
+      },
+      {
+        "id": "e200",
+        "name": "E200",
+        "nameTh": "E200",
+        "year": "2005-2021",
+        "type": "convertible"
+      },
+      {
+        "id": "e200-kompressor",
+        "name": "E200 Kompressor",
+        "nameTh": "E200 Kompressor",
+        "year": "2001-2009",
+        "type": "sedan"
+      },
+      {
+        "id": "e220",
+        "name": "E220",
+        "nameTh": "E220",
+        "year": "1994-2025",
+        "type": "convertible"
+      },
+      {
+        "id": "e230",
+        "name": "E230",
+        "nameTh": "E230",
+        "year": "1995-2009",
+        "type": "sedan"
+      },
+      {
+        "id": "e240",
+        "name": "E240",
+        "nameTh": "E240",
+        "year": "2000-2006",
+        "type": "sedan"
+      },
+      {
+        "id": "e250",
+        "name": "E250",
+        "nameTh": "E250",
+        "year": "2009-2016",
+        "type": "convertible"
+      },
+      {
+        "id": "e280",
+        "name": "E280",
+        "nameTh": "E280",
+        "year": "1994-1995",
+        "type": "sedan"
+      },
+      {
+        "id": "e300",
+        "name": "E300",
+        "nameTh": "E300",
+        "year": "2010-2024",
+        "type": "convertible"
+      },
+      {
+        "id": "e350",
+        "name": "E350",
+        "nameTh": "E350",
+        "year": "2017-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "e430",
+        "name": "E430",
+        "nameTh": "E430",
+        "year": "2000-2000",
+        "type": "sedan"
+      },
+      {
+        "id": "eqe53",
+        "name": "EQE53",
+        "nameTh": "EQE53",
+        "year": "2023-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "eqe350",
+        "name": "EQE350",
+        "nameTh": "EQE350",
+        "year": "2025-2025",
+        "type": "suv"
+      },
+      {
+        "id": "eqs450",
+        "name": "EQS450",
+        "nameTh": "EQS450",
+        "year": "2024-2024",
+        "type": "suv"
+      },
+      {
+        "id": "eqs450+",
+        "name": "EQS450+",
+        "nameTh": "EQS450+",
+        "year": "2024-2024",
+        "type": "suv"
+      },
+      {
+        "id": "eqs500",
+        "name": "EQS500",
+        "nameTh": "EQS500",
+        "year": "2022-2025",
+        "type": "suv"
+      },
+      {
+        "id": "g63",
+        "name": "G63",
+        "nameTh": "G63",
+        "year": "2019-2026",
+        "type": "suv"
+      },
+      {
+        "id": "g350",
+        "name": "G350",
+        "nameTh": "G350",
+        "year": "2015-2021",
+        "type": "suv"
+      },
+      {
+        "id": "g400",
+        "name": "G400",
+        "nameTh": "G400",
+        "year": "2021-2026",
+        "type": "suv"
+      },
+      {
+        "id": "g450",
+        "name": "G450",
+        "nameTh": "G450",
+        "year": "2025-2026",
+        "type": "suv"
+      },
+      {
+        "id": "g500",
+        "name": "G500",
+        "nameTh": "G500",
+        "year": "2017-2017",
+        "type": "suv"
+      },
+      {
+        "id": "gl350",
+        "name": "GL350",
+        "nameTh": "GL350",
+        "year": "2014-2014",
+        "type": "suv"
+      },
+      {
+        "id": "gla35",
+        "name": "GLA35",
+        "nameTh": "GLA35",
+        "year": "2021-2023",
+        "type": "suv"
+      },
+      {
+        "id": "gla200",
+        "name": "GLA200",
+        "nameTh": "GLA200",
+        "year": "2014-2026",
+        "type": "suv"
+      },
+      {
+        "id": "gla250",
+        "name": "GLA250",
+        "nameTh": "GLA250",
+        "year": "2015-2020",
+        "type": "suv"
+      },
+      {
+        "id": "glb200",
+        "name": "GLB200",
+        "nameTh": "GLB200",
+        "year": "2020-2022",
+        "type": "suv"
+      },
+      {
+        "id": "glc43",
+        "name": "GLC43",
+        "nameTh": "GLC43",
+        "year": "2018-2024",
+        "type": "coupe"
+      },
+      {
+        "id": "glc220",
+        "name": "GLC220",
+        "nameTh": "GLC220",
+        "year": "2019-2025",
+        "type": "coupe"
+      },
+      {
+        "id": "glc250",
+        "name": "GLC250",
+        "nameTh": "GLC250",
+        "year": "2015-2020",
+        "type": "coupe"
+      },
+      {
+        "id": "glc300",
+        "name": "GLC300",
+        "nameTh": "GLC300",
+        "year": "2020-2024",
+        "type": "coupe"
+      },
+      {
+        "id": "glc350",
+        "name": "GLC350",
+        "nameTh": "GLC350",
+        "year": "2023-2026",
+        "type": "coupe"
+      },
+      {
+        "id": "gle43",
+        "name": "GLE43",
+        "nameTh": "GLE43",
+        "year": "2016-2016",
+        "type": "suv"
+      },
+      {
+        "id": "gle53",
+        "name": "GLE53",
+        "nameTh": "GLE53",
+        "year": "2021-2023",
+        "type": "suv"
+      },
+      {
+        "id": "gle250",
+        "name": "GLE250",
+        "nameTh": "GLE250",
+        "year": "2015-2017",
+        "type": "suv"
+      },
+      {
+        "id": "gle300",
+        "name": "GLE300",
+        "nameTh": "GLE300",
+        "year": "2019-2025",
+        "type": "suv"
+      },
+      {
+        "id": "gle350",
+        "name": "GLE350",
+        "nameTh": "GLE350",
+        "year": "2016-2022",
+        "type": "coupe"
+      },
+      {
+        "id": "gle450",
+        "name": "GLE450",
+        "nameTh": "GLE450",
+        "year": "2016-2016",
+        "type": "coupe"
+      },
+      {
+        "id": "gle500",
+        "name": "GLE500",
+        "nameTh": "GLE500",
+        "year": "2016-2018",
+        "type": "suv"
+      },
+      {
+        "id": "gls350",
+        "name": "GLS350",
+        "nameTh": "GLS350",
+        "year": "2018-2022",
+        "type": "suv"
+      },
+      {
+        "id": "gls450",
+        "name": "GLS450",
+        "nameTh": "GLS450",
+        "year": "2024-2024",
+        "type": "suv"
+      },
+      {
+        "id": "gt-r",
+        "name": "GT R",
+        "nameTh": "GT R",
+        "year": "2018-2022",
+        "type": "coupe"
+      },
+      {
+        "id": "maybach-s500",
+        "name": "Maybach S500",
+        "nameTh": "Maybach S500",
+        "year": "2015-2015",
+        "type": "sedan"
+      },
+      {
+        "id": "maybach-s560",
+        "name": "Maybach S560",
+        "nameTh": "Maybach S560",
+        "year": "2021-2021",
+        "type": "sedan"
+      },
+      {
+        "id": "maybach-s580",
+        "name": "Maybach S580",
+        "nameTh": "Maybach S580",
+        "year": "2023-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "ml63",
+        "name": "ML63",
+        "nameTh": "ML63",
+        "year": "2009-2009",
+        "type": "suv"
+      },
+      {
+        "id": "ml250",
+        "name": "ML250",
+        "nameTh": "ML250",
+        "year": "2012-2016",
+        "type": "suv"
+      },
+      {
+        "id": "r300",
+        "name": "R300",
+        "nameTh": "R300",
+        "year": "2012-2012",
+        "type": "suv"
+      },
+      {
+        "id": "s280",
+        "name": "S280",
+        "nameTh": "S280",
+        "year": "1995-2007",
+        "type": "sedan"
+      },
+      {
+        "id": "s300",
+        "name": "S300",
+        "nameTh": "S300",
+        "year": "2007-2016",
+        "type": "sedan"
+      },
+      {
+        "id": "s320",
+        "name": "S320",
+        "nameTh": "S320",
+        "year": "1999-2009",
+        "type": "sedan"
+      },
+      {
+        "id": "s350",
+        "name": "S350",
+        "nameTh": "S350",
+        "year": "2006-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "s400",
+        "name": "S400",
+        "nameTh": "S400",
+        "year": "2014-2014",
+        "type": "sedan"
+      },
+      {
+        "id": "s500",
+        "name": "S500",
+        "nameTh": "S500",
+        "year": "2001-2022",
+        "type": "sedan"
+      },
+      {
+        "id": "s560",
+        "name": "S560",
+        "nameTh": "S560",
+        "year": "2018-2021",
+        "type": "coupe"
+      },
+      {
+        "id": "s580",
+        "name": "S580",
+        "nameTh": "S580",
+        "year": "2022-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "sl43",
+        "name": "SL43",
+        "nameTh": "SL43",
+        "year": "2023-2026",
+        "type": "convertible"
+      },
+      {
+        "id": "sl55",
+        "name": "SL55",
+        "nameTh": "SL55",
+        "year": "2008-2025",
+        "type": "convertible"
+      },
+      {
+        "id": "sl63",
+        "name": "SL63",
+        "nameTh": "SL63",
+        "year": "2011-2011",
+        "type": "convertible"
+      },
+      {
+        "id": "sl280",
+        "name": "SL280",
+        "nameTh": "SL280",
+        "year": "1995-1997",
+        "type": "convertible"
+      },
+      {
+        "id": "sl300",
+        "name": "SL300",
+        "nameTh": "SL300",
+        "year": "1992-1992",
+        "type": "convertible"
+      },
+      {
+        "id": "sl350",
+        "name": "SL350",
+        "nameTh": "SL350",
+        "year": "2003-2003",
+        "type": "convertible"
+      },
+      {
+        "id": "sl500",
+        "name": "SL500",
+        "nameTh": "SL500",
+        "year": "1980-2003",
+        "type": "convertible"
+      },
+      {
+        "id": "slc43",
+        "name": "SLC43",
+        "nameTh": "SLC43",
+        "year": "2016-2017",
+        "type": "convertible"
+      },
+      {
+        "id": "slc300",
+        "name": "SLC300",
+        "nameTh": "SLC300",
+        "year": "2016-2020",
+        "type": "convertible"
+      },
+      {
+        "id": "slk200",
+        "name": "SLK200",
+        "nameTh": "SLK200",
+        "year": "2011-2016",
+        "type": "convertible"
+      },
+      {
+        "id": "slk200-kompressor",
+        "name": "SLK200 Kompressor",
+        "nameTh": "SLK200 Kompressor",
+        "year": "2005-2009",
+        "type": "convertible"
+      },
+      {
+        "id": "slk230-kompressor",
+        "name": "SLK230 Kompressor",
+        "nameTh": "SLK230 Kompressor",
+        "year": "1997-1997",
+        "type": "convertible"
+      },
+      {
+        "id": "slk250",
+        "name": "SLK250",
+        "nameTh": "SLK250",
+        "year": "2011-2012",
+        "type": "convertible"
+      },
+      {
+        "id": "sls",
+        "name": "SLS",
+        "nameTh": "SLS",
+        "year": "2012-2012",
+        "type": "coupe"
+      },
+      {
+        "id": "sprinter",
+        "name": "SPRINTER",
+        "nameTh": "SPRINTER",
+        "year": "2015-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "v220",
+        "name": "V220",
+        "nameTh": "V220",
+        "year": "2019-2020",
+        "type": "sedan"
+      },
+      {
+        "id": "v250",
+        "name": "V250",
+        "nameTh": "V250",
+        "year": "2019-2023",
+        "type": "sedan"
+      },
+      {
+        "id": "v280",
+        "name": "V280",
+        "nameTh": "V280",
+        "year": "2001-2001",
+        "type": "sedan"
+      },
+      {
+        "id": "v300",
+        "name": "V300",
+        "nameTh": "V300",
+        "year": "2025-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "viano",
+        "name": "Viano",
+        "nameTh": "Viano",
+        "year": "2013-2013",
+        "type": "sedan"
+      },
+      {
+        "id": "vito",
+        "name": "Vito",
+        "nameTh": "Vito",
+        "year": "2001-2025",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "aion",
+    "name": "Aion",
+    "nameTh": "Aion",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Aion อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "hyptec-ht",
+        "name": "Hyptec HT",
+        "nameTh": "Hyptec HT",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "v",
+        "name": "V",
+        "nameTh": "V",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "y-plus",
+        "name": "Y Plus",
+        "nameTh": "Y Plus",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "alfa-romeo",
+    "name": "Alfa Romeo",
+    "nameTh": "Alfa Romeo",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Alfa Romeo อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "4c",
+        "name": "4C",
+        "nameTh": "4C",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "aston-martin",
+    "name": "Aston Martin",
+    "nameTh": "Aston Martin",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Aston Martin อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "db11",
+        "name": "DB11",
+        "nameTh": "DB11",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "dbs",
+        "name": "DBS",
+        "nameTh": "DBS",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "dbx",
+        "name": "DBX",
+        "nameTh": "DBX",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "vanquish",
+        "name": "Vanquish",
+        "nameTh": "Vanquish",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "vantage",
+        "name": "VANTAGE",
+        "nameTh": "VANTAGE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "vantage-s",
+        "name": "Vantage S",
+        "nameTh": "Vantage S",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "audi",
+    "name": "Audi",
+    "nameTh": "อาวดี้",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Audi อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "a3",
+        "name": "A3",
+        "nameTh": "A3",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "a4",
+        "name": "A4",
+        "nameTh": "A4",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "a5",
+        "name": "A5",
+        "nameTh": "A5",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "a6",
+        "name": "A6",
+        "nameTh": "A6",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "a7",
+        "name": "A7",
+        "nameTh": "A7",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "a8",
+        "name": "A8",
+        "nameTh": "A8",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "e-tron",
+        "name": "e-tron",
+        "nameTh": "e-tron",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "e-tron-gt",
+        "name": "e-tron GT",
+        "nameTh": "e-tron GT",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "q2",
+        "name": "Q2",
+        "nameTh": "Q2",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "q3",
+        "name": "Q3",
+        "nameTh": "Q3",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "q5",
+        "name": "Q5",
+        "nameTh": "Q5",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "q7",
+        "name": "Q7",
+        "nameTh": "Q7",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "q8",
+        "name": "Q8",
+        "nameTh": "Q8",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "q8-e-tron",
+        "name": "Q8 e-tron",
+        "nameTh": "Q8 e-tron",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "r8",
+        "name": "R8",
+        "nameTh": "R8",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rs3",
+        "name": "RS3",
+        "nameTh": "RS3",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rs5",
+        "name": "RS5",
+        "nameTh": "RS5",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rs7",
+        "name": "RS7",
+        "nameTh": "RS7",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rs-q3",
+        "name": "RS Q3",
+        "nameTh": "RS Q3",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rs-q8",
+        "name": "RS Q8",
+        "nameTh": "RS Q8",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "tt",
+        "name": "TT",
+        "nameTh": "TT",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "tts",
+        "name": "TTS",
+        "nameTh": "TTS",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "austin",
+    "name": "AUSTIN",
+    "nameTh": "AUSTIN",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ AUSTIN อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "mini",
+        "name": "Mini",
+        "nameTh": "Mini",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "avatr",
+    "name": "Avatr",
+    "nameTh": "Avatr",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Avatr อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "avatr-11",
+        "name": "Avatr 11",
+        "nameTh": "Avatr 11",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "bentley",
+    "name": "Bentley",
+    "nameTh": "Bentley",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Bentley อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "bentayga",
+        "name": "Bentayga",
+        "nameTh": "Bentayga",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "brooklands",
+        "name": "BROOKLANDS",
+        "nameTh": "BROOKLANDS",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "continental",
+        "name": "CONTINENTAL",
+        "nameTh": "CONTINENTAL",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "continental-gt",
+        "name": "Continental GT",
+        "nameTh": "Continental GT",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "continental-gtc",
+        "name": "Continental GTC",
+        "nameTh": "Continental GTC",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "eight",
+        "name": "Eight",
+        "nameTh": "Eight",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "flying-spur",
+        "name": "Flying Spur",
+        "nameTh": "Flying Spur",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "mulsanne",
+        "name": "MULSANNE",
+        "nameTh": "MULSANNE",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "bmw-alpina",
+    "name": "BMW Alpina",
+    "nameTh": "BMW Alpina",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ BMW Alpina อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "b5",
+        "name": "B5",
+        "nameTh": "B5",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "d3",
+        "name": "D3",
+        "nameTh": "D3",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "xd3",
+        "name": "XD3",
+        "nameTh": "XD3",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "byd",
+    "name": "BYD",
+    "nameTh": "บีวายดี",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ BYD อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "atto-3",
+        "name": "Atto 3",
+        "nameTh": "Atto 3",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "dolphin",
+        "name": "Dolphin",
+        "nameTh": "Dolphin",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "m6",
+        "name": "M6",
+        "nameTh": "M6",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "seal",
+        "name": "Seal",
+        "nameTh": "Seal",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "sealion-6",
+        "name": "Sealion 6",
+        "nameTh": "Sealion 6",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "sealion-7",
+        "name": "Sealion 7",
+        "nameTh": "Sealion 7",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "changan",
+    "name": "Changan",
+    "nameTh": "Changan",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Changan อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "space-truck",
+        "name": "Space Truck",
+        "nameTh": "Space Truck",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "chery",
+    "name": "Chery",
+    "nameTh": "Chery",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Chery อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "tiggo8",
+        "name": "Tiggo8",
+        "nameTh": "Tiggo8",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "v23",
+        "name": "V23",
+        "nameTh": "V23",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "chevrolet",
+    "name": "Chevrolet",
+    "nameTh": "เชฟโรเลต",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Chevrolet อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "allroader",
+        "name": "ALLROADER",
+        "nameTh": "ALLROADER",
+        "year": "2009-2009",
+        "type": "sedan"
+      },
+      {
+        "id": "aveo",
+        "name": "AVEO",
+        "nameTh": "AVEO",
+        "year": "2011-2011",
+        "type": "sedan"
+      },
+      {
+        "id": "camaro",
+        "name": "CAMARO",
+        "nameTh": "CAMARO",
+        "year": "1996-1996",
+        "type": "coupe"
+      },
+      {
+        "id": "captiva",
+        "name": "CAPTIVA",
+        "nameTh": "CAPTIVA",
+        "year": "2007-2020",
+        "type": "suv"
+      },
+      {
+        "id": "colorado",
+        "name": "COLORADO",
+        "nameTh": "COLORADO",
+        "year": "2012-2020",
+        "type": "pickup"
+      },
+      {
+        "id": "corvette",
+        "name": "CORVETTE",
+        "nameTh": "CORVETTE",
+        "year": "2022-2025",
+        "type": "convertible"
+      },
+      {
+        "id": "cruze",
+        "name": "CRUZE",
+        "nameTh": "CRUZE",
+        "year": "2011-2012",
+        "type": "sedan"
+      },
+      {
+        "id": "express",
+        "name": "EXPRESS",
+        "nameTh": "EXPRESS",
+        "year": "2002-2002",
+        "type": "sedan"
+      },
+      {
+        "id": "lumina",
+        "name": "LUMINA",
+        "nameTh": "LUMINA",
+        "year": "2005-2005",
+        "type": "sedan"
+      },
+      {
+        "id": "optra",
+        "name": "OPTRA",
+        "nameTh": "OPTRA",
+        "year": "2005-2010",
+        "type": "sedan"
+      },
+      {
+        "id": "sonic",
+        "name": "SONIC",
+        "nameTh": "SONIC",
+        "year": "2013-2015",
+        "type": "hatchback"
+      },
+      {
+        "id": "spin",
+        "name": "SPIN",
+        "nameTh": "SPIN",
+        "year": "2015-2015",
+        "type": "sedan"
+      },
+      {
+        "id": "trailblazer",
+        "name": "TRAILBLAZER",
+        "nameTh": "TRAILBLAZER",
+        "year": "2012-2020",
+        "type": "suv"
+      },
+      {
+        "id": "van",
+        "name": "Van",
+        "nameTh": "Van",
+        "year": "1996-1996",
+        "type": "sedan"
+      },
+      {
+        "id": "zafira",
+        "name": "ZAFIRA",
+        "nameTh": "ZAFIRA",
+        "year": "2000-2000",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "chrysler",
+    "name": "Chrysler",
+    "nameTh": "Chrysler",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Chrysler อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "300c",
+        "name": "300C",
+        "nameTh": "300C",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "citroen",
+    "name": "Citroen",
+    "nameTh": "Citroen",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Citroen อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "c4",
+        "name": "C4",
+        "nameTh": "C4",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cx",
+        "name": "CX",
+        "nameTh": "CX",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ds3",
+        "name": "DS3",
+        "nameTh": "DS3",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "dacia",
+    "name": "Dacia",
+    "nameTh": "Dacia",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Dacia อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "spring",
+        "name": "Spring",
+        "nameTh": "Spring",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "daihatsu",
+    "name": "Daihatsu",
+    "nameTh": "Daihatsu",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Daihatsu อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "copen",
+        "name": "COPEN",
+        "nameTh": "COPEN",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "hijet",
+        "name": "HIJET",
+        "nameTh": "HIJET",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "move-canbus",
+        "name": "MOVE Canbus",
+        "nameTh": "MOVE Canbus",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "taft",
+        "name": "Taft",
+        "nameTh": "Taft",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "tanto",
+        "name": "TANTO",
+        "nameTh": "TANTO",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "datsun",
+    "name": "Datsun",
+    "nameTh": "Datsun",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Datsun อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "2000",
+        "name": "2000",
+        "nameTh": "2000",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "deepal",
+    "name": "DEEPAL",
+    "nameTh": "ดีพอล",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ DEEPAL อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "e07",
+        "name": "E07",
+        "nameTh": "E07",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "s05",
+        "name": "S05",
+        "nameTh": "S05",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "s07",
+        "name": "S07",
+        "nameTh": "S07",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "denza",
+    "name": "Denza",
+    "nameTh": "Denza",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Denza อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "d9",
+        "name": "D9",
+        "nameTh": "D9",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "deva",
+    "name": "DEVA",
+    "nameTh": "DEVA",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ DEVA อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "hercules",
+        "name": "HERCULES",
+        "nameTh": "HERCULES",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "dodge",
+    "name": "DODGE",
+    "nameTh": "DODGE",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ DODGE อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "c-series",
+        "name": "C Series",
+        "nameTh": "C Series",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "ferrari",
+    "name": "Ferrari",
+    "nameTh": "Ferrari",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Ferrari อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "296",
+        "name": "296",
+        "nameTh": "296",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "348",
+        "name": "348",
+        "nameTh": "348",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "360",
+        "name": "360",
+        "nameTh": "360",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "458",
+        "name": "458",
+        "nameTh": "458",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "488",
+        "name": "488",
+        "nameTh": "488",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "550",
+        "name": "550",
+        "nameTh": "550",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "812",
+        "name": "812",
+        "nameTh": "812",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "california",
+        "name": "CALIFORNIA",
+        "nameTh": "CALIFORNIA",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "f8",
+        "name": "F8",
+        "nameTh": "F8",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "f355",
+        "name": "F355",
+        "nameTh": "F355",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "f430",
+        "name": "F430",
+        "nameTh": "F430",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ff",
+        "name": "FF",
+        "nameTh": "FF",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "portofino",
+        "name": "Portofino",
+        "nameTh": "Portofino",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "purosangue",
+        "name": "Purosangue",
+        "nameTh": "Purosangue",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "roma",
+        "name": "Roma",
+        "nameTh": "Roma",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "sf90-stradale",
+        "name": "SF90 Stradale",
+        "nameTh": "SF90 Stradale",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "fiat",
+    "name": "Fiat",
+    "nameTh": "Fiat",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Fiat อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "500",
+        "name": "500",
+        "nameTh": "500",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "1100",
+        "name": "1100",
+        "nameTh": "1100",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "foton",
+    "name": "Foton",
+    "nameTh": "Foton",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Foton อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "aumark",
+        "name": "Aumark",
+        "nameTh": "Aumark",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "gmc",
+    "name": "GMC",
+    "nameTh": "GMC",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ GMC อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "yukon",
+        "name": "Yukon",
+        "nameTh": "Yukon",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "gwm-tank",
+    "name": "GWM Tank",
+    "nameTh": "GWM Tank",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ GWM Tank อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "300",
+        "name": "300",
+        "nameTh": "300",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "500",
+        "name": "500",
+        "nameTh": "500",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "haval",
+    "name": "Haval",
+    "nameTh": "ฮาวาล",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Haval อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "h6",
+        "name": "H6",
+        "nameTh": "H6",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "jolion",
+        "name": "Jolion",
+        "nameTh": "Jolion",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "hino",
+    "name": "HINO",
+    "nameTh": "HINO",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ HINO อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "300",
+        "name": "300",
+        "nameTh": "300",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "hummer",
+    "name": "Hummer",
+    "nameTh": "Hummer",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Hummer อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "h3",
+        "name": "H3",
+        "nameTh": "H3",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "hyundai",
+    "name": "Hyundai",
+    "nameTh": "ฮุนได",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Hyundai อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "creta",
+        "name": "Creta",
+        "nameTh": "Creta",
+        "year": "2022-2024",
+        "type": "suv"
+      },
+      {
+        "id": "elantra",
+        "name": "ELANTRA",
+        "nameTh": "ELANTRA",
+        "year": "2017-2017",
+        "type": "sedan"
+      },
+      {
+        "id": "grand-starex",
+        "name": "GRAND STAREX",
+        "nameTh": "GRAND STAREX",
+        "year": "2011-2020",
+        "type": "sedan"
+      },
+      {
+        "id": "h-1",
+        "name": "H-1",
+        "nameTh": "H-1",
+        "year": "2008-2023",
+        "type": "sedan"
+      },
+      {
+        "id": "ioniq",
+        "name": "Ioniq",
+        "nameTh": "Ioniq",
+        "year": "2018-2018",
+        "type": "sedan"
+      },
+      {
+        "id": "ioniq-5",
+        "name": "Ioniq 5",
+        "nameTh": "Ioniq 5",
+        "year": "2023-2023",
+        "type": "sedan"
+      },
+      {
+        "id": "kona",
+        "name": "Kona",
+        "nameTh": "Kona",
+        "year": "2019-2019",
+        "type": "suv"
+      },
+      {
+        "id": "palisade",
+        "name": "Palisade",
+        "nameTh": "Palisade",
+        "year": "2025-2025",
+        "type": "suv"
+      },
+      {
+        "id": "santa-fe",
+        "name": "Santa Fe",
+        "nameTh": "Santa Fe",
+        "year": "2023-2023",
+        "type": "suv"
+      },
+      {
+        "id": "scoupe",
+        "name": "SCOUPE",
+        "nameTh": "SCOUPE",
+        "year": "1994-1994",
+        "type": "coupe"
+      },
+      {
+        "id": "sonata",
+        "name": "SONATA",
+        "nameTh": "SONATA",
+        "year": "2013-2013",
+        "type": "sedan"
+      },
+      {
+        "id": "stargazer",
+        "name": "Stargazer",
+        "nameTh": "Stargazer",
+        "year": "2023-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "staria",
+        "name": "Staria",
+        "nameTh": "Staria",
+        "year": "2021-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "tiburon",
+        "name": "TIBURON",
+        "nameTh": "TIBURON",
+        "year": "1997-1997",
+        "type": "coupe"
+      },
+      {
+        "id": "tucson",
+        "name": "TUCSON",
+        "nameTh": "TUCSON",
+        "year": "2011-2014",
+        "type": "suv"
+      },
+      {
+        "id": "veloster",
+        "name": "VELOSTER",
+        "nameTh": "VELOSTER",
+        "year": "2014-2014",
+        "type": "hatchback"
+      }
+    ]
+  },
+  {
+    "id": "infiniti",
+    "name": "INFINITI",
+    "nameTh": "INFINITI",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ INFINITI อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "g35",
+        "name": "G35",
+        "nameTh": "G35",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "jaecoo",
+    "name": "Jaecoo",
+    "nameTh": "Jaecoo",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Jaecoo อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "5",
+        "name": "5",
+        "nameTh": "5",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "6",
+        "name": "6",
+        "nameTh": "6",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "6t",
+        "name": "6T",
+        "nameTh": "6T",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "jaguar",
+    "name": "Jaguar",
+    "nameTh": "Jaguar",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Jaguar อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "daimler",
+        "name": "DAIMLER",
+        "nameTh": "DAIMLER",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "f-pace",
+        "name": "F-Pace",
+        "nameTh": "F-Pace",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "f-type",
+        "name": "F-TYPE",
+        "nameTh": "F-TYPE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "i-pace",
+        "name": "I-Pace",
+        "nameTh": "I-Pace",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "sovereign",
+        "name": "SOVEREIGN",
+        "nameTh": "SOVEREIGN",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "x-type",
+        "name": "X-TYPE",
+        "nameTh": "X-TYPE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "xe",
+        "name": "XE",
+        "nameTh": "XE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "xf",
+        "name": "XF",
+        "nameTh": "XF",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "xj",
+        "name": "XJ",
+        "nameTh": "XJ",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "xj6",
+        "name": "XJ6",
+        "nameTh": "XJ6",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "xj8",
+        "name": "XJ8",
+        "nameTh": "XJ8",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "xjr",
+        "name": "XJR",
+        "nameTh": "XJR",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "jeep",
+    "name": "Jeep",
+    "nameTh": "Jeep",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Jeep อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "cherokee",
+        "name": "CHEROKEE",
+        "nameTh": "CHEROKEE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "grand-cherokee",
+        "name": "GRAND CHEROKEE",
+        "nameTh": "GRAND CHEROKEE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "renegade",
+        "name": "Renegade",
+        "nameTh": "Renegade",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "wrangler",
+        "name": "WRANGLER",
+        "nameTh": "WRANGLER",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "kia",
+    "name": "Kia",
+    "nameTh": "เกีย",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Kia อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "carnival",
+        "name": "CARNIVAL",
+        "nameTh": "CARNIVAL",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ev5",
+        "name": "EV5",
+        "nameTh": "EV5",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ev9",
+        "name": "EV9",
+        "nameTh": "EV9",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "grand-carnival",
+        "name": "GRAND CARNIVAL",
+        "nameTh": "GRAND CARNIVAL",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "k2500",
+        "name": "K2500",
+        "nameTh": "K2500",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "picanto",
+        "name": "PICANTO",
+        "nameTh": "PICANTO",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "sorento",
+        "name": "SORENTO",
+        "nameTh": "SORENTO",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "lamborghini",
+    "name": "Lamborghini",
+    "nameTh": "Lamborghini",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Lamborghini อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "aventador",
+        "name": "AVENTADOR",
+        "nameTh": "AVENTADOR",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "gallardo",
+        "name": "GALLARDO",
+        "nameTh": "GALLARDO",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "huracan",
+        "name": "HURACAN",
+        "nameTh": "HURACAN",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "revuelto",
+        "name": "Revuelto",
+        "nameTh": "Revuelto",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "urus",
+        "name": "Urus",
+        "nameTh": "Urus",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "lancia",
+    "name": "LANCIA",
+    "nameTh": "LANCIA",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ LANCIA อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "beta-coupe",
+        "name": "Beta Coupe",
+        "nameTh": "Beta Coupe",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "land-rover",
+    "name": "Land Rover",
+    "nameTh": "Land Rover",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Land Rover อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "defender",
+        "name": "DEFENDER",
+        "nameTh": "DEFENDER",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "discovery",
+        "name": "DISCOVERY",
+        "nameTh": "DISCOVERY",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "discovery-4",
+        "name": "Discovery 4",
+        "nameTh": "Discovery 4",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "discovery-sport",
+        "name": "Discovery Sport",
+        "nameTh": "Discovery Sport",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "freelander",
+        "name": "FREELANDER",
+        "nameTh": "FREELANDER",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "freelander-2",
+        "name": "Freelander 2",
+        "nameTh": "Freelander 2",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "range-rover",
+        "name": "RANGE ROVER",
+        "nameTh": "RANGE ROVER",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "series-iii",
+        "name": "Series III",
+        "nameTh": "Series III",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "lexus",
+    "name": "Lexus",
+    "nameTh": "เลกซัส",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Lexus อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "ct200h",
+        "name": "CT200h",
+        "nameTh": "CT200h",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "es300",
+        "name": "ES300",
+        "nameTh": "ES300",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "es300h",
+        "name": "ES300h",
+        "nameTh": "ES300h",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "gs250",
+        "name": "GS250",
+        "nameTh": "GS250",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "gs300",
+        "name": "GS300",
+        "nameTh": "GS300",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "gs300h",
+        "name": "GS300h",
+        "nameTh": "GS300h",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "is250",
+        "name": "IS250",
+        "nameTh": "IS250",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "is300h",
+        "name": "IS300h",
+        "nameTh": "IS300h",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "lc500",
+        "name": "LC500",
+        "nameTh": "LC500",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "lm300h",
+        "name": "LM300h",
+        "nameTh": "LM300h",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "lm350h",
+        "name": "LM350h",
+        "nameTh": "LM350h",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "lm500h",
+        "name": "LM500h",
+        "nameTh": "LM500h",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ls350",
+        "name": "LS350",
+        "nameTh": "LS350",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ls430",
+        "name": "LS430",
+        "nameTh": "LS430",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ls460",
+        "name": "LS460",
+        "nameTh": "LS460",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ls460l",
+        "name": "LS460L",
+        "nameTh": "LS460L",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ls500",
+        "name": "LS500",
+        "nameTh": "LS500",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "lx470",
+        "name": "LX470",
+        "nameTh": "LX470",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "lx600",
+        "name": "LX600",
+        "nameTh": "LX600",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "nx300h",
+        "name": "NX300h",
+        "nameTh": "NX300h",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "nx450h+",
+        "name": "NX450h+",
+        "nameTh": "NX450h+",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rx200t",
+        "name": "RX200t",
+        "nameTh": "RX200t",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rx270",
+        "name": "RX270",
+        "nameTh": "RX270",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rx300",
+        "name": "RX300",
+        "nameTh": "RX300",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rx350",
+        "name": "RX350",
+        "nameTh": "RX350",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rx450h+",
+        "name": "RX450h+",
+        "nameTh": "RX450h+",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rz450e",
+        "name": "RZ450e",
+        "nameTh": "RZ450e",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ux250h",
+        "name": "UX250h",
+        "nameTh": "UX250h",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ux300e",
+        "name": "UX300e",
+        "nameTh": "UX300e",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "lotus",
+    "name": "Lotus",
+    "nameTh": "Lotus",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Lotus อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "eletre",
+        "name": "Eletre",
+        "nameTh": "Eletre",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "elise",
+        "name": "ELISE",
+        "nameTh": "ELISE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "emeya",
+        "name": "Emeya",
+        "nameTh": "Emeya",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "esprit",
+        "name": "ESPRIT",
+        "nameTh": "ESPRIT",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "maserati",
+    "name": "Maserati",
+    "nameTh": "Maserati",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Maserati อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "ghibli",
+        "name": "GHIBLI",
+        "nameTh": "GHIBLI",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "grecale",
+        "name": "Grecale",
+        "nameTh": "Grecale",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "levante",
+        "name": "Levante",
+        "nameTh": "Levante",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "mc20",
+        "name": "MC20",
+        "nameTh": "MC20",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "quattroporte",
+        "name": "QUATTROPORTE",
+        "nameTh": "QUATTROPORTE",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "mclaren",
+    "name": "MCLAREN",
+    "nameTh": "MCLAREN",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ MCLAREN อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "570s",
+        "name": "570S",
+        "nameTh": "570S",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "600lt",
+        "name": "600LT",
+        "nameTh": "600LT",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "620r",
+        "name": "620R",
+        "nameTh": "620R",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "650s",
+        "name": "650S",
+        "nameTh": "650S",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "675lt",
+        "name": "675LT",
+        "nameTh": "675LT",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "720s",
+        "name": "720S",
+        "nameTh": "720S",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "765lt",
+        "name": "765LT",
+        "nameTh": "765LT",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "artura",
+        "name": "Artura",
+        "nameTh": "Artura",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "gt",
+        "name": "GT",
+        "nameTh": "GT",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "mg",
+    "name": "MG",
+    "nameTh": "เอ็มจี",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ MG อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "ep",
+        "name": "EP",
+        "nameTh": "EP",
+        "year": "2021-2023",
+        "type": "sedan"
+      },
+      {
+        "id": "es",
+        "name": "ES",
+        "nameTh": "ES",
+        "year": "2023-2023",
+        "type": "sedan"
+      },
+      {
+        "id": "extender",
+        "name": "Extender",
+        "nameTh": "Extender",
+        "year": "2019-2026",
+        "type": "pickup"
+      },
+      {
+        "id": "gs",
+        "name": "GS",
+        "nameTh": "GS",
+        "year": "2016-2019",
+        "type": "suv"
+      },
+      {
+        "id": "hs",
+        "name": "HS",
+        "nameTh": "HS",
+        "year": "2019-2025",
+        "type": "suv"
+      },
+      {
+        "id": "hs-phev",
+        "name": "HS PHEV",
+        "nameTh": "HS PHEV",
+        "year": "2020-2024",
+        "type": "suv"
+      },
+      {
+        "id": "im6",
+        "name": "IM6",
+        "nameTh": "IM6",
+        "year": "2025-2025",
+        "type": "suv"
+      },
+      {
+        "id": "maxus9",
+        "name": "Maxus9",
+        "nameTh": "Maxus9",
+        "year": "2023-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "mg3",
+        "name": "MG3",
+        "nameTh": "MG3",
+        "year": "2015-2025",
+        "type": "hatchback"
+      },
+      {
+        "id": "mg4",
+        "name": "MG4",
+        "nameTh": "MG4",
+        "year": "2023-2025",
+        "type": "hatchback"
+      },
+      {
+        "id": "mg5",
+        "name": "MG5",
+        "nameTh": "MG5",
+        "year": "2016-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "mg6",
+        "name": "MG6",
+        "nameTh": "MG6",
+        "year": "2014-2017",
+        "type": "sedan"
+      },
+      {
+        "id": "v80",
+        "name": "V80",
+        "nameTh": "V80",
+        "year": "2019-2020",
+        "type": "sedan"
+      },
+      {
+        "id": "vs-hev",
+        "name": "VS HEV",
+        "nameTh": "VS HEV",
+        "year": "2022-2025",
+        "type": "suv"
+      },
+      {
+        "id": "zs",
+        "name": "ZS",
+        "nameTh": "ZS",
+        "year": "2017-2026",
+        "type": "suv"
+      }
+    ]
+  },
+  {
+    "id": "mini",
+    "name": "Mini",
+    "nameTh": "Mini",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Mini อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "aceman",
+        "name": "Aceman",
+        "nameTh": "Aceman",
+        "year": "2024-2025",
+        "type": "hatchback"
+      },
+      {
+        "id": "cabrio",
+        "name": "Cabrio",
+        "nameTh": "Cabrio",
+        "year": "2005-2023",
+        "type": "convertible"
+      },
+      {
+        "id": "clubman",
+        "name": "Clubman",
+        "nameTh": "Clubman",
+        "year": "2008-2024",
+        "type": "hatchback"
+      },
+      {
+        "id": "cooper",
+        "name": "COOPER",
+        "nameTh": "COOPER",
+        "year": "2005-2025",
+        "type": "hatchback"
+      },
+      {
+        "id": "countryman",
+        "name": "Countryman",
+        "nameTh": "Countryman",
+        "year": "2011-2025",
+        "type": "hatchback"
+      },
+      {
+        "id": "coupe",
+        "name": "Coupe",
+        "nameTh": "Coupe",
+        "year": "2011-2013",
+        "type": "coupe"
+      },
+      {
+        "id": "one",
+        "name": "ONE",
+        "nameTh": "ONE",
+        "year": "2008-2010",
+        "type": "hatchback"
+      },
+      {
+        "id": "roadster",
+        "name": "Roadster",
+        "nameTh": "Roadster",
+        "year": "2013-2013",
+        "type": "coupe"
+      }
+    ]
+  },
+  {
+    "id": "neta",
+    "name": "Neta",
+    "nameTh": "เนต้า",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Neta อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "neta-v",
+        "name": "Neta V",
+        "nameTh": "Neta V",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "neta-v-ii",
+        "name": "Neta V-II",
+        "nameTh": "Neta V-II",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "neta-x",
+        "name": "Neta X",
+        "nameTh": "Neta X",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "nissan",
+    "name": "Nissan",
+    "nameTh": "นิสสัน",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Nissan อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "350z",
+        "name": "350Z",
+        "nameTh": "350Z",
+        "year": "2003-2011",
+        "type": "convertible"
+      },
+      {
+        "id": "370z",
+        "name": "370Z",
+        "nameTh": "370Z",
+        "year": "2009-2011",
+        "type": "coupe"
+      },
+      {
+        "id": "almera",
+        "name": "ALMERA",
+        "nameTh": "ALMERA",
+        "year": "2011-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "big-m",
+        "name": "Big M",
+        "nameTh": "Big M",
+        "year": "1989-1989",
+        "type": "pickup"
+      },
+      {
+        "id": "cefiro",
+        "name": "CEFIRO",
+        "nameTh": "CEFIRO",
+        "year": "1992-2003",
+        "type": "sedan"
+      },
+      {
+        "id": "cube",
+        "name": "CUBE",
+        "nameTh": "CUBE",
+        "year": "2009-2012",
+        "type": "hatchback"
+      },
+      {
+        "id": "elgrand",
+        "name": "ELGRAND",
+        "nameTh": "ELGRAND",
+        "year": "2011-2015",
+        "type": "sedan"
+      },
+      {
+        "id": "figaro",
+        "name": "FIGARO",
+        "nameTh": "FIGARO",
+        "year": "1991-1991",
+        "type": "convertible"
+      },
+      {
+        "id": "frontier",
+        "name": "Frontier",
+        "nameTh": "Frontier",
+        "year": "2003-2005",
+        "type": "pickup"
+      },
+      {
+        "id": "frontier-navara",
+        "name": "Frontier Navara",
+        "nameTh": "Frontier Navara",
+        "year": "2007-2013",
+        "type": "pickup"
+      },
+      {
+        "id": "fuga",
+        "name": "Fuga",
+        "nameTh": "Fuga",
+        "year": "2009-2009",
+        "type": "sedan"
+      },
+      {
+        "id": "gt-r",
+        "name": "GT-R",
+        "nameTh": "GT-R",
+        "year": "2008-2024",
+        "type": "coupe"
+      },
+      {
+        "id": "juke",
+        "name": "JUKE",
+        "nameTh": "JUKE",
+        "year": "2011-2017",
+        "type": "suv"
+      },
+      {
+        "id": "kicks",
+        "name": "Kicks",
+        "nameTh": "Kicks",
+        "year": "2020-2026",
+        "type": "suv"
+      },
+      {
+        "id": "leaf",
+        "name": "LEAF",
+        "nameTh": "LEAF",
+        "year": "2019-2021",
+        "type": "hatchback"
+      },
+      {
+        "id": "livina",
+        "name": "LIVINA",
+        "nameTh": "LIVINA",
+        "year": "2014-2016",
+        "type": "suv"
+      },
+      {
+        "id": "march",
+        "name": "MARCH",
+        "nameTh": "MARCH",
+        "year": "2010-2022",
+        "type": "hatchback"
+      },
+      {
+        "id": "navara",
+        "name": "Navara",
+        "nameTh": "Navara",
+        "year": "2020-2025",
+        "type": "pickup"
+      },
+      {
+        "id": "note",
+        "name": "Note",
+        "nameTh": "Note",
+        "year": "2017-2021",
+        "type": "hatchback"
+      },
+      {
+        "id": "np-300-navara",
+        "name": "NP 300 Navara",
+        "nameTh": "NP 300 Navara",
+        "year": "2014-2020",
+        "type": "pickup"
+      },
+      {
+        "id": "nv",
+        "name": "NV",
+        "nameTh": "NV",
+        "year": "1995-2001",
+        "type": "pickup"
+      },
+      {
+        "id": "patrol",
+        "name": "PATROL",
+        "nameTh": "PATROL",
+        "year": "1977-1977",
+        "type": "sedan"
+      },
+      {
+        "id": "pulsar",
+        "name": "PULSAR",
+        "nameTh": "PULSAR",
+        "year": "2013-2014",
+        "type": "hatchback"
+      },
+      {
+        "id": "roox",
+        "name": "Roox",
+        "nameTh": "Roox",
+        "year": "2022-2022",
+        "type": "hatchback"
+      },
+      {
+        "id": "serena",
+        "name": "SERENA",
+        "nameTh": "SERENA",
+        "year": "2025-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "skyline",
+        "name": "SKYLINE",
+        "nameTh": "SKYLINE",
+        "year": "1968-2000",
+        "type": "coupe"
+      },
+      {
+        "id": "sunny",
+        "name": "SUNNY",
+        "nameTh": "SUNNY",
+        "year": "2001-2005",
+        "type": "sedan"
+      },
+      {
+        "id": "sylphy",
+        "name": "SYLPHY",
+        "nameTh": "SYLPHY",
+        "year": "2012-2019",
+        "type": "sedan"
+      },
+      {
+        "id": "teana",
+        "name": "TEANA",
+        "nameTh": "TEANA",
+        "year": "2005-2019",
+        "type": "sedan"
+      },
+      {
+        "id": "terra",
+        "name": "Terra",
+        "nameTh": "Terra",
+        "year": "2018-2024",
+        "type": "suv"
+      },
+      {
+        "id": "tiida",
+        "name": "TIIDA",
+        "nameTh": "TIIDA",
+        "year": "2006-2013",
+        "type": "hatchback"
+      },
+      {
+        "id": "urvan",
+        "name": "URVAN",
+        "nameTh": "URVAN",
+        "year": "2013-2023",
+        "type": "sedan"
+      },
+      {
+        "id": "x-trail",
+        "name": "X-TRAIL",
+        "nameTh": "X-TRAIL",
+        "year": "2012-2020",
+        "type": "suv"
+      },
+      {
+        "id": "xciter",
+        "name": "Xciter",
+        "nameTh": "Xciter",
+        "year": "2003-2003",
+        "type": "sedan"
+      },
+      {
+        "id": "z",
+        "name": "Z",
+        "nameTh": "Z",
+        "year": "2023-2024",
+        "type": "coupe"
+      }
+    ]
+  },
+  {
+    "id": "opel",
+    "name": "Opel",
+    "nameTh": "Opel",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Opel อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "calibra",
+        "name": "CALIBRA",
+        "nameTh": "CALIBRA",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "corsa",
+        "name": "CORSA",
+        "nameTh": "CORSA",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "ora",
+    "name": "ORA",
+    "nameTh": "โอร่า",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ ORA อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "07",
+        "name": "07",
+        "nameTh": "07",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "good-cat",
+        "name": "Good Cat",
+        "nameTh": "Good Cat",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "peugeot",
+    "name": "Peugeot",
+    "nameTh": "เปอร์โยต์",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Peugeot อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "206",
+        "name": "206",
+        "nameTh": "206",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "308",
+        "name": "308",
+        "nameTh": "308",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "407",
+        "name": "407",
+        "nameTh": "407",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "408",
+        "name": "408",
+        "nameTh": "408",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "504",
+        "name": "504",
+        "nameTh": "504",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "807",
+        "name": "807",
+        "nameTh": "807",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "2008",
+        "name": "2008",
+        "nameTh": "2008",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "3008",
+        "name": "3008",
+        "nameTh": "3008",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "5008",
+        "name": "5008",
+        "nameTh": "5008",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "expert",
+        "name": "EXPERT",
+        "nameTh": "EXPERT",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "rcz",
+        "name": "RCZ",
+        "nameTh": "RCZ",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "porsche",
+    "name": "Porsche",
+    "nameTh": "ปอร์เช่",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Porsche อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "718",
+        "name": "718",
+        "nameTh": "718",
+        "year": "2016-2026",
+        "type": "convertible"
+      },
+      {
+        "id": "911",
+        "name": "911",
+        "nameTh": "911",
+        "year": "1990-2026",
+        "type": "convertible"
+      },
+      {
+        "id": "968",
+        "name": "968",
+        "nameTh": "968",
+        "year": "1993-1993",
+        "type": "convertible"
+      },
+      {
+        "id": "boxster",
+        "name": "BOXSTER",
+        "nameTh": "BOXSTER",
+        "year": "2003-2014",
+        "type": "convertible"
+      },
+      {
+        "id": "cayenne",
+        "name": "CAYENNE",
+        "nameTh": "CAYENNE",
+        "year": "2004-2026",
+        "type": "coupe"
+      },
+      {
+        "id": "cayman",
+        "name": "CAYMAN",
+        "nameTh": "CAYMAN",
+        "year": "2007-2016",
+        "type": "coupe"
+      },
+      {
+        "id": "macan",
+        "name": "MACAN",
+        "nameTh": "MACAN",
+        "year": "2014-2025",
+        "type": "suv"
+      },
+      {
+        "id": "panamera",
+        "name": "PANAMERA",
+        "nameTh": "PANAMERA",
+        "year": "2011-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "taycan",
+        "name": "Taycan",
+        "nameTh": "Taycan",
+        "year": "2020-2025",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "proton",
+    "name": "Proton",
+    "nameTh": "Proton",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Proton อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "exora",
+        "name": "EXORA",
+        "nameTh": "EXORA",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "neo",
+        "name": "NEO",
+        "nameTh": "NEO",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "saga",
+        "name": "SAGA",
+        "nameTh": "SAGA",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "suprima-s",
+        "name": "Suprima S",
+        "nameTh": "Suprima S",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "rolls-royce",
+    "name": "Rolls-Royce",
+    "nameTh": "Rolls-Royce",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Rolls-Royce อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "corniche-ii",
+        "name": "CORNICHE II",
+        "nameTh": "CORNICHE II",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "cullinan",
+        "name": "Cullinan",
+        "nameTh": "Cullinan",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "ghost",
+        "name": "GHOST",
+        "nameTh": "GHOST",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "phantom",
+        "name": "PHANTOM",
+        "nameTh": "PHANTOM",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "silver-shadow",
+        "name": "Silver Shadow",
+        "nameTh": "Silver Shadow",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "silver-spirit",
+        "name": "Silver Spirit",
+        "nameTh": "Silver Spirit",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "silver-spur",
+        "name": "Silver Spur",
+        "nameTh": "Silver Spur",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "wraith",
+        "name": "Wraith",
+        "nameTh": "Wraith",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "rover",
+    "name": "Rover",
+    "nameTh": "Rover",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Rover อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "mini",
+        "name": "MINI",
+        "nameTh": "MINI",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "saab",
+    "name": "Saab",
+    "nameTh": "Saab",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Saab อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "9-3",
+        "name": "9-3",
+        "nameTh": "9-3",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "900",
+        "name": "900",
+        "nameTh": "900",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "9000",
+        "name": "9000",
+        "nameTh": "9000",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "skoda",
+    "name": "Skoda",
+    "nameTh": "Skoda",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Skoda อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "superb",
+        "name": "Superb",
+        "nameTh": "Superb",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "superb-combi",
+        "name": "Superb Combi",
+        "nameTh": "Superb Combi",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "smart",
+    "name": "Smart",
+    "nameTh": "Smart",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Smart อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "city",
+        "name": "City",
+        "nameTh": "City",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "ssangyong",
+    "name": "Ssangyong",
+    "nameTh": "Ssangyong",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Ssangyong อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "actyon",
+        "name": "ACTYON",
+        "nameTh": "ACTYON",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "kyron",
+        "name": "KYRON",
+        "nameTh": "KYRON",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "stavic",
+        "name": "STAVIC",
+        "nameTh": "STAVIC",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "subaru",
+    "name": "Subaru",
+    "nameTh": "ซูบารุ",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Subaru อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "brz",
+        "name": "BRZ",
+        "nameTh": "BRZ",
+        "year": "2018-2026",
+        "type": "coupe"
+      },
+      {
+        "id": "forester",
+        "name": "FORESTER",
+        "nameTh": "FORESTER",
+        "year": "2006-2026",
+        "type": "suv"
+      },
+      {
+        "id": "impreza",
+        "name": "IMPREZA",
+        "nameTh": "IMPREZA",
+        "year": "1997-2015",
+        "type": "hatchback"
+      },
+      {
+        "id": "legacy",
+        "name": "LEGACY",
+        "nameTh": "LEGACY",
+        "year": "2012-2012",
+        "type": "sedan"
+      },
+      {
+        "id": "levorg",
+        "name": "Levorg",
+        "nameTh": "Levorg",
+        "year": "2016-2016",
+        "type": "sedan"
+      },
+      {
+        "id": "outback",
+        "name": "OUTBACK",
+        "nameTh": "OUTBACK",
+        "year": "2005-2005",
+        "type": "sedan"
+      },
+      {
+        "id": "wrx",
+        "name": "WRX",
+        "nameTh": "WRX",
+        "year": "2016-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "xv",
+        "name": "XV",
+        "nameTh": "XV",
+        "year": "2012-2024",
+        "type": "suv"
+      }
+    ]
+  },
+  {
+    "id": "suzuki",
+    "name": "Suzuki",
+    "nameTh": "ซูซูกิ",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Suzuki อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "apv",
+        "name": "APV",
+        "nameTh": "APV",
+        "year": "2011-2011",
+        "type": "sedan"
+      },
+      {
+        "id": "caribian",
+        "name": "CARIBIAN",
+        "nameTh": "CARIBIAN",
+        "year": "1990-2005",
+        "type": "pickup"
+      },
+      {
+        "id": "carry",
+        "name": "CARRY",
+        "nameTh": "CARRY",
+        "year": "2011-2025",
+        "type": "sedan"
+      },
+      {
+        "id": "celerio",
+        "name": "CELERIO",
+        "nameTh": "CELERIO",
+        "year": "2014-2025",
+        "type": "hatchback"
+      },
+      {
+        "id": "ciaz",
+        "name": "Ciaz",
+        "nameTh": "Ciaz",
+        "year": "2015-2022",
+        "type": "sedan"
+      },
+      {
+        "id": "ertiga",
+        "name": "ERTIGA",
+        "nameTh": "ERTIGA",
+        "year": "2013-2022",
+        "type": "sedan"
+      },
+      {
+        "id": "every",
+        "name": "EVERY",
+        "nameTh": "EVERY",
+        "year": "2011-2011",
+        "type": "sedan"
+      },
+      {
+        "id": "fronx",
+        "name": "Fronx",
+        "nameTh": "Fronx",
+        "year": "2025-2026",
+        "type": "suv"
+      },
+      {
+        "id": "hustler",
+        "name": "HUSTLER",
+        "nameTh": "HUSTLER",
+        "year": "2025-2025",
+        "type": "hatchback"
+      },
+      {
+        "id": "jimny",
+        "name": "JIMNY",
+        "nameTh": "JIMNY",
+        "year": "2021-2026",
+        "type": "suv"
+      },
+      {
+        "id": "lapin",
+        "name": "LAPIN",
+        "nameTh": "LAPIN",
+        "year": "2015-2015",
+        "type": "hatchback"
+      },
+      {
+        "id": "spacia",
+        "name": "Spacia",
+        "nameTh": "Spacia",
+        "year": "2025-2026",
+        "type": "sedan"
+      },
+      {
+        "id": "swift",
+        "name": "SWIFT",
+        "nameTh": "SWIFT",
+        "year": "2011-2024",
+        "type": "hatchback"
+      },
+      {
+        "id": "sx4",
+        "name": "SX4",
+        "nameTh": "SX4",
+        "year": "2011-2012",
+        "type": "hatchback"
+      },
+      {
+        "id": "vitara",
+        "name": "VITARA",
+        "nameTh": "VITARA",
+        "year": "1994-2012",
+        "type": "suv"
+      },
+      {
+        "id": "xl7",
+        "name": "XL7",
+        "nameTh": "XL7",
+        "year": "2020-2024",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "tata",
+    "name": "Tata",
+    "nameTh": "Tata",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Tata อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "super-ace",
+        "name": "Super Ace",
+        "nameTh": "Super Ace",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "super-ace-mint",
+        "name": "Super Ace Mint",
+        "nameTh": "Super Ace Mint",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "xenon",
+        "name": "XENON",
+        "nameTh": "XENON",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "tesla",
+    "name": "TESLA",
+    "nameTh": "เทสลา",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ TESLA อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "model",
+        "name": "Model",
+        "nameTh": "Model",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "model-3",
+        "name": "Model 3",
+        "nameTh": "Model 3",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "model-s",
+        "name": "Model S",
+        "nameTh": "Model S",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "model-x",
+        "name": "Model X",
+        "nameTh": "Model X",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "model-y",
+        "name": "Model Y",
+        "nameTh": "Model Y",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "tr",
+    "name": "TR",
+    "nameTh": "TR",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ TR อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "adventure-master",
+        "name": "Adventure Master",
+        "nameTh": "Adventure Master",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "transformer",
+        "name": "Transformer",
+        "nameTh": "Transformer",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "transformer-ll",
+        "name": "Transformer ll",
+        "nameTh": "Transformer ll",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "volkswagen",
+    "name": "Volkswagen",
+    "nameTh": "โฟล์กสวาเกน",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Volkswagen อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "beetle",
+        "name": "BEETLE",
+        "nameTh": "BEETLE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "caravelle",
+        "name": "CARAVELLE",
+        "nameTh": "CARAVELLE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "golf",
+        "name": "GOLF",
+        "nameTh": "GOLF",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "id.-buzz",
+        "name": "ID. Buzz",
+        "nameTh": "ID. Buzz",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "new-beetle",
+        "name": "NEW BEETLE",
+        "nameTh": "NEW BEETLE",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "scirocco",
+        "name": "SCIROCCO",
+        "nameTh": "SCIROCCO",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "tiguan",
+        "name": "Tiguan",
+        "nameTh": "Tiguan",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "volt",
+    "name": "Volt",
+    "nameTh": "Volt",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Volt อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "for-four",
+        "name": "For-Four",
+        "nameTh": "For-Four",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "volvo",
+    "name": "Volvo",
+    "nameTh": "วอลโว่",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Volvo อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "144",
+        "name": "144",
+        "nameTh": "144",
+        "year": "1967-1967",
+        "type": "sedan"
+      },
+      {
+        "id": "244",
+        "name": "244",
+        "nameTh": "244",
+        "year": "1979-1979",
+        "type": "sedan"
+      },
+      {
+        "id": "850",
+        "name": "850",
+        "nameTh": "850",
+        "year": "1994-1994",
+        "type": "sedan"
+      },
+      {
+        "id": "940",
+        "name": "940",
+        "nameTh": "940",
+        "year": "1994-1994",
+        "type": "sedan"
+      },
+      {
+        "id": "960",
+        "name": "960",
+        "nameTh": "960",
+        "year": "1998-1998",
+        "type": "sedan"
+      },
+      {
+        "id": "1800",
+        "name": "1800",
+        "nameTh": "1800",
+        "year": "1973-1973",
+        "type": "coupe"
+      },
+      {
+        "id": "c30",
+        "name": "C30",
+        "nameTh": "C30",
+        "year": "2012-2012",
+        "type": "hatchback"
+      },
+      {
+        "id": "c40",
+        "name": "C40",
+        "nameTh": "C40",
+        "year": "2022-2024",
+        "type": "suv"
+      },
+      {
+        "id": "c70",
+        "name": "C70",
+        "nameTh": "C70",
+        "year": "2006-2008",
+        "type": "convertible"
+      },
+      {
+        "id": "ec40",
+        "name": "EC40",
+        "nameTh": "EC40",
+        "year": "2024-2025",
+        "type": "suv"
+      },
+      {
+        "id": "ex30",
+        "name": "EX30",
+        "nameTh": "EX30",
+        "year": "2024-2026",
+        "type": "suv"
+      },
+      {
+        "id": "ex40",
+        "name": "EX40",
+        "nameTh": "EX40",
+        "year": "2025-2025",
+        "type": "suv"
+      },
+      {
+        "id": "ex90",
+        "name": "EX90",
+        "nameTh": "EX90",
+        "year": "2025-2025",
+        "type": "suv"
+      },
+      {
+        "id": "p1800",
+        "name": "P1800",
+        "nameTh": "P1800",
+        "year": "1961-1961",
+        "type": "coupe"
+      },
+      {
+        "id": "s60",
+        "name": "S60",
+        "nameTh": "S60",
+        "year": "2004-2021",
+        "type": "sedan"
+      },
+      {
+        "id": "s80",
+        "name": "S80",
+        "nameTh": "S80",
+        "year": "2007-2014",
+        "type": "sedan"
+      },
+      {
+        "id": "s90",
+        "name": "S90",
+        "nameTh": "S90",
+        "year": "2017-2024",
+        "type": "sedan"
+      },
+      {
+        "id": "v40",
+        "name": "V40",
+        "nameTh": "V40",
+        "year": "2002-2019",
+        "type": "sedan"
+      },
+      {
+        "id": "v50",
+        "name": "V50",
+        "nameTh": "V50",
+        "year": "2010-2012",
+        "type": "sedan"
+      },
+      {
+        "id": "v60",
+        "name": "V60",
+        "nameTh": "V60",
+        "year": "2012-2023",
+        "type": "sedan"
+      },
+      {
+        "id": "v70",
+        "name": "V70",
+        "nameTh": "V70",
+        "year": "2002-2003",
+        "type": "sedan"
+      },
+      {
+        "id": "xc40",
+        "name": "XC40",
+        "nameTh": "XC40",
+        "year": "2019-2023",
+        "type": "suv"
+      },
+      {
+        "id": "xc60",
+        "name": "XC60",
+        "nameTh": "XC60",
+        "year": "2012-2026",
+        "type": "suv"
+      },
+      {
+        "id": "xc90",
+        "name": "XC90",
+        "nameTh": "XC90",
+        "year": "2004-2025",
+        "type": "suv"
+      }
+    ]
+  },
+  {
+    "id": "wuling",
+    "name": "Wuling",
+    "nameTh": "Wuling",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Wuling อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "air-ev",
+        "name": "Air EV",
+        "nameTh": "Air EV",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "binguo",
+        "name": "Binguo",
+        "nameTh": "Binguo",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "xpeng",
+    "name": "Xpeng",
+    "nameTh": "Xpeng",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ Xpeng อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "g6",
+        "name": "G6",
+        "nameTh": "G6",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "x9",
+        "name": "X9",
+        "nameTh": "X9",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  },
+  {
+    "id": "zeekr",
+    "name": "ZEEKR",
+    "nameTh": "ZEEKR",
+    "logo": null,
+    "color": "#171A20",
+    "description": "ค้นหาและเปรียบเทียบราคาอะไหล่รถยนต์ยี่ห้อ ZEEKR อะไหล่แท้ อะไหล่เทียบ ราคาถูกใจ",
+    "popularModels": [],
+    "models": [
+      {
+        "id": "7x",
+        "name": "7X",
+        "nameTh": "7X",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "009",
+        "name": "009",
+        "nameTh": "009",
+        "year": "N/A",
+        "type": "sedan"
+      },
+      {
+        "id": "x",
+        "name": "X",
+        "nameTh": "X",
+        "year": "N/A",
+        "type": "sedan"
+      }
+    ]
+  }
+]

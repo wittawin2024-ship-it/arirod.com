@@ -1,0 +1,45 @@
+{
+  "id": "isuzu-d-max",
+  "brand": "isuzu",
+  "brandName": "Isuzu",
+  "model": "d-max",
+  "name": "D-Max",
+  "nameTh": "อีซูซุ ดีแมคซ์",
+  "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+  "engine": "1.9L / 3.0L Ddi Blue Power Turbo Diesel",
+  "transmission": "6-speed Manual / 6-speed Automatic",
+  "type": "Pickup",
+  "image": "/images/cars/isuzu-d-max-v2.png",
+  "description": "Isuzu D-Max คือรถกระบะที่มียอดขายสูงสุดเป็นอันดับหนึ่งในประเทศไทย โดดเด่นด้วยเครื่องยนต์ดีเซลตระกูล Ddi Blue Power ที่ทนทาน ประหยัดน้ำมันเป็นเลิศ และมีค่าบำรุงรักษาต่ำ เหมาะสำหรับการบรรทุกและใช้งานทั่วไป",
+  "specs": {
+    "length": "5,265 mm",
+    "width": "1,870 mm",
+    "height": "1,790 mm",
+    "wheelbase": "3,125 mm",
+    "fuelType": "Diesel",
+    "fuelConsumption": "6.0-7.8 L/100km",
+    "horsePower": "150-190 hp",
+    "seats": 5
+  },
+  "categories": [
+    { "id": "engine", "nameTh": "เครื่องยนต์", "nameEn": "Engine", "icon": "⚙️", "color": "#ef4444", "partsCount": 15 },
+    { "id": "brake", "nameTh": "ระบบเบรก", "nameEn": "Brake System", "icon": "🛑", "color": "#f97316", "partsCount": 8 },
+    { "id": "suspension", "nameTh": "ระบบกันสะเทือน", "nameEn": "Suspension", "icon": "🔧", "color": "#eab308", "partsCount": 12 },
+    { "id": "electrical", "nameTh": "ระบบไฟฟ้า", "nameEn": "Electrical", "icon": "⚡", "color": "#3b82f6", "partsCount": 10 },
+    { "id": "exterior", "nameTh": "ตัวถัง & กระจก", "nameEn": "Exterior & Glass", "icon": "🚗", "color": "#8b5cf6", "partsCount": 18 },
+    { "id": "filter", "nameTh": "ฟิลเตอร์ & น้ำมัน", "nameEn": "Filter & Fluid", "icon": "🧴", "color": "#10b981", "partsCount": 11 },
+    { "id": "transmission", "nameTh": "ระบบส่งกำลัง", "nameEn": "Transmission", "icon": "⚙️", "color": "#6366f1", "partsCount": 7 },
+    { "id": "cooling", "nameTh": "ระบบระบายความร้อน", "nameEn": "Cooling System", "icon": "💧", "color": "#0ea5e9", "partsCount": 8 }
+  ],
+  "seo": {
+    "title": "อะไหล่ Isuzu D-Max ทุกรุ่น ราคาถูก พร้อมส่ง | AraiRod.com",
+    "description": "ค้นหาอะไหล่ Isuzu D-Max แท้และเทียบ ราคาถูก ครบทุกชิ้น เครื่องยนต์ เบรก กันสะเทือน สั่งซื้อผ่าน Shopee Lazada ส่งฟรีทั่วไทย",
+    "keywords": ["อะไหล่ Isuzu D-Max", "อะไหล่ดีแมคซ์", "Isuzu D-Max อะไหล่แท้", "ราคาอะไหล่ D-Max"]
+  },
+  "maintenanceTips": [
+    "เปลี่ยนถ่ายน้ำมันเครื่องดีเซลทุก 10,000 กม. หรือ 6 เดือน",
+    "เปลี่ยนกรองน้ำมันเชื้อเพลิง (โซล่า) ทุก 20,000 กม.",
+    "ตรวจสอบและทำความสะอาดกรองอากาศทุก 10,000 กม. เปลี่ยนทุก 40,000 กม.",
+    "ตรวจสอบระบบเบรกและระดับน้ำมันเบรกทุก 20,000 กม."
+  ]
+}

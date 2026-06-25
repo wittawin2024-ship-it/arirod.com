@@ -1,0 +1,107 @@
+[
+  {
+    "id": "tc-brk-001",
+    "nameEn": "Front Brake Pad Set",
+    "nameTh": "ผ้าเบรกหน้า (ชุด)",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Brembo / Bendix / ATE",
+    "partNumber": "04465-33471",
+    "category": "brake",
+    "subcategory": "pad",
+    "description": "ผ้าเบรกหน้าแท้ Toyota Camry คุณภาพสูง ลดการสั่นและเสียงดังขณะเบรก ทนทาน ปลอดภัย",
+    "priceRange": { "min": 800, "max": 3500 },
+    "image": "/images/parts/brake-pad.jpg",
+    "changeInterval": "ทุก 30,000-40,000 กม. หรือเมื่อความหนาต่ำกว่า 3 mm",
+    "difficulty": "ปานกลาง",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/CFgHIjKLmn",
+      "lazada": "https://www.lazada.co.th/products/i7890123.html"
+    },
+    "relatedArticle": "/blog/วิธีเปลี่ยนผ้าเบรก-toyota-camry",
+    "tags": ["ผ้าเบรก", "เบรกหน้า", "ความปลอดภัย"]
+  },
+  {
+    "id": "tc-brk-002",
+    "nameEn": "Rear Brake Pad Set",
+    "nameTh": "ผ้าเบรกหลัง (ชุด)",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Brembo / Bendix",
+    "partNumber": "04466-33220",
+    "category": "brake",
+    "subcategory": "pad",
+    "description": "ผ้าเบรกหลังแท้ Toyota Camry ให้การเบรกที่นุ่มนวลและแม่นยำ",
+    "priceRange": { "min": 650, "max": 2800 },
+    "image": "/images/parts/brake-pad-rear.jpg",
+    "changeInterval": "ทุก 40,000-60,000 กม.",
+    "difficulty": "ปานกลาง",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/DGhIJkLMno",
+      "lazada": "https://www.lazada.co.th/products/i8901234.html"
+    },
+    "relatedArticle": "/blog/วิธีเปลี่ยนผ้าเบรก-toyota-camry",
+    "tags": ["ผ้าเบรก", "เบรกหลัง", "ความปลอดภัย"]
+  },
+  {
+    "id": "tc-brk-003",
+    "nameEn": "Front Brake Disc Rotor",
+    "nameTh": "จานเบรกหน้า",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Brembo / DBA / EBC",
+    "partNumber": "43512-33200",
+    "category": "brake",
+    "subcategory": "rotor",
+    "description": "จานเบรกหน้าแท้ Toyota Camry ทำจากเหล็กคุณภาพสูง ทนความร้อน ลดอาการสั่นขณะเบรก",
+    "priceRange": { "min": 1500, "max": 5500 },
+    "image": "/images/parts/brake-disc.jpg",
+    "changeInterval": "ทุก 60,000-80,000 กม. หรือเมื่อความหนาต่ำกว่าค่ากำหนด",
+    "difficulty": "ปานกลาง",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/EHiJKlMNop",
+      "lazada": "https://www.lazada.co.th/products/i9012345.html"
+    },
+    "relatedArticle": "/blog/วิธีเปลี่ยนจานเบรก-toyota-camry",
+    "tags": ["จานเบรก", "เบรกหน้า", "ความปลอดภัย"]
+  },
+  {
+    "id": "tc-brk-004",
+    "nameEn": "Brake Fluid DOT3/DOT4",
+    "nameTh": "น้ำมันเบรก DOT3/DOT4",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Motul / Castrol / ATE",
+    "partNumber": "08823-80010",
+    "category": "brake",
+    "subcategory": "fluid",
+    "description": "น้ำมันเบรกแท้ Toyota คุณภาพสูง ป้องกันการกัดกร่อน และรักษาประสิทธิภาพการเบรกในทุกสภาพ",
+    "priceRange": { "min": 120, "max": 450 },
+    "image": "/images/parts/brake-fluid.jpg",
+    "changeInterval": "ทุก 2 ปี หรือ 40,000 กม.",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/FIjKLmNOpq",
+      "lazada": "https://www.lazada.co.th/products/i0123456.html"
+    },
+    "relatedArticle": null,
+    "tags": ["น้ำมันเบรก", "ระบบเบรก", "บำรุงรักษา"]
+  },
+  {
+    "id": "tc-brk-005",
+    "nameEn": "Brake Caliper",
+    "nameTh": "ปั๊มเบรก (Caliper)",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Akebono / Bosch",
+    "partNumber": "47750-06120",
+    "category": "brake",
+    "subcategory": "caliper",
+    "description": "ปั๊มเบรกแท้ Toyota Camry ควบคุมการบีบจับผ้าเบรกให้มีแรงกดที่เหมาะสมทุกครั้งที่เบรก",
+    "priceRange": { "min": 2500, "max": 9000 },
+    "image": "/images/parts/brake-caliper.jpg",
+    "changeInterval": "เมื่อรั่วหรือเบรกไม่ปกติ",
+    "difficulty": "ยาก",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/GJkLMnOPqr",
+      "lazada": "https://www.lazada.co.th/products/i1234560.html"
+    },
+    "relatedArticle": null,
+    "tags": ["ปั๊มเบรก", "caliper", "ระบบเบรก"]
+  }
+]

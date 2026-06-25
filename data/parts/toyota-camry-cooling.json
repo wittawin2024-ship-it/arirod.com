@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tc-col-001",
+    "nameEn": "Engine Radiator Assembly",
+    "nameTh": "รังผึ้งหม้อน้ำ (เสื้อหม้อน้ำ)",
+    "brand": "DENSO",
+    "aftermarketBrand": "Valio / Koyorad",
+    "partNumber": "16400-0V180",
+    "category": "cooling",
+    "subcategory": "radiator",
+    "description": "หม้อน้ำรถยนต์ระบายความร้อนเกรดพรีเมียมจาก DENSO ตรงรุ่นสำหรับ Camry ระบายความร้อนได้รวดเร็ว ป้องกันน้ำยาหล่อเย็นรั่วซึม",
+    "priceRange": { "min": 1800, "max": 4500 },
+    "image": "/images/parts/radiator.jpg",
+    "changeInterval": "เมื่อเกิดการอุดตัน ชำรุด หรือรั่วซึม (ประมาณ 100,000 กม.)",
+    "difficulty": "ยาก",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/radiator-shopee",
+      "lazada": "https://www.lazada.co.th/products/radiator-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["หม้อน้ำ", "ระบายความร้อน", "DENSO"]
+  },
+  {
+    "id": "tc-col-002",
+    "nameEn": "Water Pump",
+    "nameTh": "ปั๊มน้ำเครื่องยนต์",
+    "brand": "AISIN",
+    "aftermarketBrand": "Toyota Genuine / GMB",
+    "partNumber": "WPT-190V",
+    "category": "cooling",
+    "subcategory": "water_pump",
+    "description": "ปั๊มน้ำเกรดแท้จากผู้ผลิตอะไหล่ส่งแท้ป้อนโรงงานประกอบรถยนต์หมุนเวียนน้ำยาหล่อเย็นลดความร้อนสะสมเครื่องยนต์ดีเยี่ยม",
+    "priceRange": { "min": 1100, "max": 2600 },
+    "image": "/images/parts/water-pump.jpg",
+    "changeInterval": "เปลี่ยนพร้อมสายพานไทม์มิ่ง หรือเมื่อมีคราบตะกรันรั่ว (ราว 80,000-100,000 กม.)",
+    "difficulty": "ยาก",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/waterpump-shopee",
+      "lazada": "https://www.lazada.co.th/products/waterpump-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["ปั๊มน้ำ", "ระบายความร้อน", "AISIN"]
+  }
+]

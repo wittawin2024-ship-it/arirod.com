@@ -1,0 +1,107 @@
+[
+  {
+    "id": "tc-ext-001",
+    "nameEn": "Premium Wiper Blade Set (26\" + 20\")",
+    "nameTh": "ใบปัดน้ำฝนคู่หน้าเกรดพรีเมียม (26\" + 20\")",
+    "brand": "BOSCH",
+    "aftermarketBrand": "3M / Denso / Toyota Genuine",
+    "partNumber": "3397007294",
+    "category": "exterior",
+    "subcategory": "wiper",
+    "description": "ใบปัดน้ำฝน Bosch Aerotwin ปัดน้ำฝนได้สะอาดหมดจด ไร้เสียงรบกวน ทนทานต่อความร้อนและแสงแดดเมืองไทย ตรงรุ่น Camry",
+    "priceRange": { "min": 550, "max": 1200 },
+    "image": "/images/parts/wiper-blade.jpg",
+    "changeInterval": "ทุก 1 ปี หรือเมื่อยางเริ่มปัดสะดุดหรือมีเสียงดัง",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/wiper-shopee",
+      "lazada": "https://www.lazada.co.th/products/wiper-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["ใบปัดน้ำฝน", "ภายนอก", "BOSCH"]
+  },
+  {
+    "id": "tc-ext-002",
+    "nameEn": "Outer Door Handle (Chrome/Painted)",
+    "nameTh": "มือจับเปิดประตูด้านนอก (โครเมียม/ตามสีรถ)",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "OEM",
+    "partNumber": "69210-06180",
+    "category": "exterior",
+    "subcategory": "door_handle",
+    "description": "มือจับประตูด้านนอกแท้ห้าง Toyota ชุบโครเมียมเงางาม แข็งแรงทนทาน กลไกภายในลื่นไหลไม่มีติดขัด",
+    "priceRange": { "min": 850, "max": 1900 },
+    "image": "/images/parts/door-handle.jpg",
+    "changeInterval": "เมื่อชำรุด หัก หรือระบบล็อกภายนอกเปิดไม่ได้",
+    "difficulty": "ปานกลาง",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/doorhandle-shopee",
+      "lazada": "https://www.lazada.co.th/products/doorhandle-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["มือจับประตู", "ตัวถัง", "อะไหล่แท้"]
+  },
+  {
+    "id": "tc-ext-003",
+    "nameEn": "Side Mirror Assembly (7-Pins, Auto Fold & Heated)",
+    "nameTh": "กระจกมองข้างไฟฟ้า (ปลั๊ก 7 พิน พับไฟฟ้า+ไล่ฝ้า)",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "TYC / Depo",
+    "partNumber": "87910-06A60",
+    "category": "exterior",
+    "subcategory": "mirror",
+    "description": "กระจกมองข้างประกอบทั้งชุดเกรดแท้ห้าง มาพร้อมมอเตอร์พับไฟฟ้า เลนส์มุมมองกว้าง และฟังก์ชันไล่ฝ้าอุ่นร้อน",
+    "priceRange": { "min": 3200, "max": 7500 },
+    "image": "/images/parts/side-mirror.jpg",
+    "changeInterval": "เมื่อเกิดอุบัติเหตุ แตกหัก หรือมอเตอร์พับเสียหาย",
+    "difficulty": "ปานกลาง",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/mirror-shopee",
+      "lazada": "https://www.lazada.co.th/products/mirror-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["กระจกมองข้าง", "ระบบไฟมองข้าง", "อะไหล่แท้"]
+  },
+  {
+    "id": "tc-ext-004",
+    "nameEn": "Front Bumper Retainer Clip Set (10 pcs)",
+    "nameTh": "ชุดกิ๊บหมุดยึดกันชนหน้า (ชุด 10 ตัว)",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "OEM / generic",
+    "partNumber": "90467-07211",
+    "category": "exterior",
+    "subcategory": "clip",
+    "description": "กิ๊บล็อกกันชนและพลาสติกใต้ซุ้มล้อคุณภาพสูง ล็อกแน่นหนา ไม่หลุดง่าย ทนความร้อนสูง ไม่กรอบแตกง่ายเหมือนกิ๊บราคาถูกทั่วไป",
+    "priceRange": { "min": 60, "max": 180 },
+    "image": "/images/parts/bumper-clip.jpg",
+    "changeInterval": "เปลี่ยนเมื่อกิ๊บเดิมหัก หลวม หรือสูญหายเมื่อถอดชิ้นส่วนกันชน",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/clip-shopee",
+      "lazada": "https://www.lazada.co.th/products/clip-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["กิ๊บล็อก", "หมุดยึด", "กันชนหน้า"]
+  },
+  {
+    "id": "tc-ext-005",
+    "nameEn": "LED Headlight Assembly (Right Side)",
+    "nameTh": "โคมไฟหน้า LED (ข้างขวา)",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Depo / TYC",
+    "partNumber": "81110-06D70",
+    "category": "exterior",
+    "subcategory": "headlight",
+    "description": "โคมไฟหน้า LED แท้ห้าง Toyota แสงขาวนวล คมชัด มีระดับความสว่างสูงและเลนส์กระจายแสงควบคุมทิศทางอย่างถูกต้องตามมาตรฐานความปลอดภัย",
+    "priceRange": { "min": 9800, "max": 24000 },
+    "image": "/images/parts/headlight.jpg",
+    "changeInterval": "เมื่อโคมแตกหัก น้ำเข้า หรือระบบไฟ LED เสียหาย",
+    "difficulty": "ยาก",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/headlight-shopee",
+      "lazada": "https://www.lazada.co.th/products/headlight-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["ไฟหน้า", "โคมไฟ", "LED", "อะไหล่แท้"]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tc-ele-001",
+    "nameEn": "Car Battery Q85/115D23L",
+    "nameTh": "แบตเตอรี่กึ่งแห้ง Q85 (สำหรับระบบ Start-Stop)",
+    "brand": "GS Battery",
+    "aftermarketBrand": "3K / Amaron / Panasonic",
+    "partNumber": "GS-Q85-D23L",
+    "category": "electrical",
+    "subcategory": "battery",
+    "description": "แบตเตอรี่คุณภาพสูงสำหรับรถยนต์ Toyota Camry ที่มีระบบ ISS (Idling Stop System) ทนทาน กำลังไฟแรง สตาร์ทติดง่าย",
+    "priceRange": { "min": 2500, "max": 4200 },
+    "image": "/images/parts/battery.jpg",
+    "changeInterval": "ทุก 1.5 - 2 ปี หรือเมื่อเริ่มเสื่อมสภาพ",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/battery-shopee",
+      "lazada": "https://www.lazada.co.th/products/battery-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["แบตเตอรี่", "ระบบไฟ", "GS"]
+  },
+  {
+    "id": "tc-ele-002",
+    "nameEn": "Ignition Coil",
+    "nameTh": "คอยล์จุดระเบิด",
+    "brand": "DENSO",
+    "aftermarketBrand": "Toyota Genuine / Bosch",
+    "partNumber": "90919-02266",
+    "category": "electrical",
+    "subcategory": "coil",
+    "description": "คอยล์จุดระเบิดเกรดแท้จาก DENSO สำหรับ Toyota Camry ช่วยให้ระบบเผาไหม้สมบูรณ์ เครื่องยนต์เดินเรียบ ไม่สั่นสะดุด",
+    "priceRange": { "min": 1200, "max": 2800 },
+    "image": "/images/parts/ignition-coil.jpg",
+    "changeInterval": "เมื่อเสีย หรือเครื่องเดินสะดุด (ประมาณ 100,000 กม.)",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/coil-shopee",
+      "lazada": "https://www.lazada.co.th/products/coil-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["คอยล์", "ระบบจุดระเบิด", "DENSO"]
+  }
+]

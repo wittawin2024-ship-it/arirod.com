@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tc-flt-001",
+    "nameEn": "Engine Air Filter Element",
+    "nameTh": "กรองอากาศเครื่องยนต์",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Denso / Bosch / Sakura",
+    "partNumber": "17801-25020",
+    "category": "filter",
+    "subcategory": "air_filter",
+    "description": "ไส้กรองอากาศแท้ Toyota Camry กรองสิ่งสกปรกและฝุ่นละอองในอากาศก่อนเข้าสู่เครื่องยนต์ ช่วยประหยัดน้ำมัน",
+    "priceRange": { "min": 350, "max": 950 },
+    "image": "/images/parts/air-filter.jpg",
+    "changeInterval": "ทุก 20,000 กม. หรือเป่าลมทำความสะอาดทุก 10,000 กม.",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/airfilter-shopee",
+      "lazada": "https://www.lazada.co.th/products/airfilter-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["กรองอากาศ", "ไส้กรอง", "บำรุงรักษา"]
+  },
+  {
+    "id": "tc-flt-002",
+    "nameEn": "Engine Oil Filter",
+    "nameTh": "กรองน้ำมันเครื่อง (แบบกระดาษ)",
+    "brand": "Toyota Genuine",
+    "aftermarketBrand": "Denso / Sakura / Bosch",
+    "partNumber": "04152-31090",
+    "category": "filter",
+    "subcategory": "oil_filter",
+    "description": "ไส้กรองน้ำมันเครื่องแท้กรองตะกอนเศษโลหะและคราบเขม่าดินช่วยยืดอายุของเครื่องยนต์ป้องระบบวาล์วและชิ้นส่วนเสียดสีภายใน",
+    "priceRange": { "min": 150, "max": 450 },
+    "image": "/images/parts/oil-filter.jpg",
+    "changeInterval": "เปลี่ยนพร้อมน้ำมันเครื่องทุกครั้ง (ทุก 10,000 กม.)",
+    "difficulty": "ง่าย",
+    "affiliateLinks": {
+      "shopee": "https://s.shopee.co.th/oilfilter-shopee",
+      "lazada": "https://www.lazada.co.th/products/oilfilter-lazada"
+    },
+    "relatedArticle": null,
+    "tags": ["กรองน้ำมันเครื่อง", "ไส้กรอง", "บำรุงรักษา"]
+  }
+]
