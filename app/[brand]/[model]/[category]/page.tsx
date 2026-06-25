@@ -2,9 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PartCard from "@/components/PartCard";
-import brandsData from "@/data/brands.json";
-import fs from "fs";
-import path from "path";
+import { getBrand, getModel, getParts } from "@/lib/db";
 
 const categoryNames: Record<string, { nameTh: string; nameEn: string; icon: string }> = {
   engine: { nameTh: "เครื่องยนต์", nameEn: "Engine", icon: "⚙️" },
@@ -17,96 +15,6 @@ const categoryNames: Record<string, { nameTh: string; nameEn: string; icon: stri
   cooling: { nameTh: "ระบบระบายความร้อน", nameEn: "Cooling", icon: "💧" },
 };
 
-async function getPartsData(brand: string, model: string, category: string) {
-  try {
-    const data = await import(`@/data/parts/${brand}-${model}-${category}.json`);
-    return data.default;
-  } catch {
-    return [];
-  }
-}
-
-async function getModelData(brand: string, model: string) {
-  try {
-    const data = await import(`@/data/models/${brand}-${model}.json`);
-    return data.default;
-  } catch {
-    // Fallback: load dynamically from search tree
-    try {
-      const filePath = path.join(process.cwd(), "data/one2car_search_tree.json");
-      const fileContent = fs.readFileSync(filePath, "utf8");
-      const searchTree = JSON.parse(fileContent);
-
-      const brandKey = Object.keys(searchTree).find(
-        (b) => b.toLowerCase() === brand.toLowerCase()
-      );
-      if (!brandKey) return null;
-
-      const brandData = searchTree[brandKey];
-      const modelKey = Object.keys(brandData).find((m) => {
-        const mData = brandData[m];
-        const modelSlug = mData.Model_Slug || m;
-        const simpleSlug = modelSlug.split("/").pop() || "";
-        return (
-          m.toLowerCase() === model.toLowerCase() ||
-          simpleSlug.toLowerCase() === model.toLowerCase()
-        );
-      });
-
-      if (!modelKey) return null;
-
-      const mData = brandData[modelKey];
-      return {
-        id: `${brand}-${model}`,
-        brand: brand.toLowerCase(),
-        brandName: brandKey,
-        model: model.toLowerCase(),
-        name: modelKey,
-        nameTh: `${brandKey} ${modelKey}`,
-        years: mData.Years || [],
-        engine: mData.Fuel_Types ? mData.Fuel_Types.join(" / ") : "N/A",
-        transmission: mData.Transmissions ? mData.Transmissions.join(" / ") : "N/A",
-        type: mData.Body_Types ? mData.Body_Types.join(" / ") : "N/A",
-        image: null,
-        description: `${brandKey} ${modelKey} ค้นหาสเปกและชิ้นส่วนอะไหล่แท้/เทียบที่ต้องการอย่างถูกต้อง ผ่านตัวเลือกฟิลเตอร์ระบบค้นหาอัจฉวิยะ`,
-        specs: {
-          length: "N/A",
-          width: "N/A",
-          height: "N/A",
-          wheelbase: "N/A",
-          fuelType: mData.Fuel_Types ? mData.Fuel_Types.join(" / ") : "N/A",
-          fuelConsumption: "N/A",
-          horsePower: "N/A",
-          seats: 5,
-        },
-        categories: [
-          { "id": "engine", "nameTh": "เครื่องยนต์", "nameEn": "Engine", "icon": "⚙️", "color": "#ef4444", "partsCount": 24 },
-          { "id": "brake", "nameTh": "ระบบเบรก", "nameEn": "Brake System", "icon": "🛑", "color": "#f97316", "partsCount": 18 },
-          { "id": "suspension", "nameTh": "ระบบกันสะเทือน", "nameEn": "Suspension", "icon": "🔧", "color": "#eab308", "partsCount": 15 },
-          { "id": "electrical", "nameTh": "ระบบไฟฟ้า", "nameEn": "Electrical", "icon": "⚡", "color": "#3b82f6", "partsCount": 20 },
-          { "id": "exterior", "nameTh": "ตัวถัง & กระจก", "nameEn": "Exterior & Glass", "icon": "🚗", "color": "#8b5cf6", "partsCount": 30 },
-          { "id": "filter", "nameTh": "ฟิลเตอร์ & น้ำมัน", "nameEn": "Filter & Fluid", "icon": "🧴", "color": "#10b981", "partsCount": 12 },
-          { "id": "transmission", "nameTh": "ระบบส่งกำลัง", "nameEn": "Transmission", "icon": "⚙️", "color": "#6366f1", "partsCount": 10 },
-          { "id": "cooling", "nameTh": "ระบบระบายความร้อน", "nameEn": "Cooling System", "icon": "💧", "color": "#0ea5e9", "partsCount": 8 }
-        ],
-        seo: {
-          title: `อะไหล่ ${brandKey} ${modelKey} ทุกโฉมและรุ่นย่อย ราคาถูก | AraiRod.com`,
-          description: `แหล่งรวมอะไหล่ ${brandKey} ${modelKey} เปรียบเทียบราคาอะไหล่แท้ อะไหล่เทียบจากช้อปปี้ ลาซาด้า ส่งฟรีทั่วไทย`,
-          keywords: [`อะไหล่ ${brandKey} ${modelKey}`, `ราคาอะไหล่ ${modelKey}`, `ซื้ออะไหล่ ${modelKey}`],
-        },
-        maintenanceTips: [
-          "เปลี่ยนถ่ายน้ำมันเครื่องตามระยะเวลาปกติที่แนะนำ",
-          "ตรวจสอบระบบผ้าเบรกและจานเบรกเป็นประจำทุก 20,000 กม.",
-          "เปลี่ยนไส้กรองอากาศและกรองแอร์ทุก 20,000-40,000 กม.",
-          "ตรวจสภาพการสึกหรอของหน้ายางและเช็คลมยางอย่างสม่ำเสมอ",
-        ],
-      };
-    } catch {
-      return null;
-    }
-  }
-}
-
 export async function generateMetadata({
   params,
 }: {
@@ -114,10 +22,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { brand, model, category } = await params;
   const catInfo = categoryNames[category];
-  const modelData = await getModelData(brand, model);
+  const modelData = await getModel(brand, model);
   if (!catInfo || !modelData) return { title: "ไม่พบหมวดหมู่นี้" };
 
-  const brandInfo = brandsData.find((b) => b.id === brand);
+  const brandInfo = await getBrand(brand);
   const title = `อะไหล่${catInfo.nameTh} ${brandInfo?.name || brand.toUpperCase()} ${modelData.name} ราคาถูก | AraiRod.com`;
   const description = `รวมอะไหล่${catInfo.nameTh}สำหรับ ${modelData.nameTh} ราคาดีที่สุด สั่งซื้อผ่าน Shopee Lazada ส่งฟรีทั่วไทย`;
 
@@ -141,15 +49,15 @@ export default async function PartsListPage({
   const catInfo = categoryNames[category];
   if (!catInfo) notFound();
 
-  const [parts, modelData] = await Promise.all([
-    getPartsData(brand, model, category),
-    getModelData(brand, model),
+  const [parts, modelData, brandInfo] = await Promise.all([
+    getParts(brand, model, category),
+    getModel(brand, model),
+    getBrand(brand),
   ]);
 
-  if (!modelData) notFound();
+  if (!modelData || !brandInfo) notFound();
 
-  const brandInfo = brandsData.find((b) => b.id === brand);
-  const brandName = brandInfo?.name || brand.toUpperCase();
+  const brandName = brandInfo.name || brand.toUpperCase();
   const modelName = modelData.name;
 
   // Extract filter parameters for customization
@@ -160,8 +68,6 @@ export default async function PartsListPage({
   const fuel = typeof sParams.fuel === "string" ? sParams.fuel : "";
 
   // Dynamic search keyword construction for empty list fallbacks
-  // E.g. "อะไหล่เครื่องยนต์ Toyota Camry ACV70 เกียร์อัตโนมัติ"
-  // Clean generation string to remove year range if we want cleaner keywords, or just include it
   const cleanGen = generation ? generation.split(" (ปี")[0].trim() : "";
   const searchKeyword = `อะไหล่${catInfo.nameTh} ${brandName} ${modelName} ${cleanGen} ${variant} ${transmission}`.replace(/\s+/g, " ").trim();
 

@@ -40,7 +40,18 @@ const recentArticles = [
 
 export default async function HomePage() {
   const brandsData = await getBrands();
-  const popularBrands = brandsData.slice(0, 6);
+  const popularOrder = ["toyota", "honda", "isuzu", "mazda", "ford", "mitsubishi"];
+  const popularBrands = brandsData
+    .filter((brand: any) => brand.logo && brand.logo !== "")
+    .sort((a: any, b: any) => {
+      const indexA = popularOrder.indexOf(a.id.toLowerCase());
+      const indexB = popularOrder.indexOf(b.id.toLowerCase());
+      if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+      if (indexA !== -1) return -1;
+      if (indexB !== -1) return 1;
+      return a.name.localeCompare(b.name);
+    })
+    .slice(0, 6);
 
   return (
     <div className="min-h-screen bg-white">

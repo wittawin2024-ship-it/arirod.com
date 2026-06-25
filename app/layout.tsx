@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ChatBot from "@/components/ChatBot";
 import { getBrands } from "@/lib/db";
+import { headers } from "next/headers";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const mitr = Mitr({
@@ -55,10 +56,23 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const brands = await getBrands();
+  const headersList = await headers();
+  const pathname = headersList.get("x-pathname") || "";
+  const isAdminRoute = pathname.startsWith("/admin");
+
+  if (isAdminRoute) {
+    return (
+      <html lang="th">
+        <body className={`${inter.variable} ${mitr.variable} font-mitr bg-[var(--light-ash)] text-[var(--graphite)] antialiased`}>
+          {children}
+        </body>
+      </html>
+    );
+  }
 
   return (
     <html lang="th">
-      <body className={`${inter.variable} ${mitr.variable} font-mitr`}>
+      <body className={`${inter.variable} ${mitr.variable} font-mitr antialiased`}>
         <Navbar initialBrands={brands} />
         <main>{children}</main>
         <Footer />

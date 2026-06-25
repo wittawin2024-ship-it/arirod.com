@@ -22,6 +22,7 @@ export async function getBrands() {
       const { data, error } = await supabase
         .from("brands")
         .select("*, models(*)")
+        .eq("active", true)
         .order("name", { ascending: true });
       
       if (!error && data) {
@@ -33,19 +34,23 @@ export async function getBrands() {
           color: brand.color,
           description: brand.description,
           popularModels: brand.popular_models || [],
-          models: (brand.models || []).map((m: any) => {
-            const simpleId = m.id.replace(`${brand.id}-`, "");
-            const yearStr = m.years && m.years.length > 0 
-              ? `${Math.min(...m.years)}-${Math.max(...m.years)}` 
-              : "";
-            return {
-              id: simpleId,
-              name: m.name,
-              nameTh: m.name_th,
-              year: yearStr,
-              type: m.type
-            };
-          })
+          active: brand.active,
+          models: (brand.models || [])
+            .filter((m: any) => m.active !== false)
+            .map((m: any) => {
+              const simpleId = m.id.replace(`${brand.id}-`, "");
+              const yearStr = m.years && m.years.length > 0 
+                ? `${Math.min(...m.years)}-${Math.max(...m.years)}` 
+                : "";
+              return {
+                id: simpleId,
+                name: m.name,
+                nameTh: m.name_th,
+                year: yearStr,
+                type: m.type,
+                active: m.active
+              };
+            })
         }));
       }
       console.warn("Supabase getBrands query failed, falling back to JSON:", error?.message);
@@ -58,7 +63,14 @@ export async function getBrands() {
   try {
     const brandsPath = path.join(process.cwd(), "data/brands.json");
     const fileContent = fs.readFileSync(brandsPath, "utf8");
-    return JSON.parse(fileContent);
+    const brands = JSON.parse(fileContent);
+    return brands
+      .filter((b: any) => b.active !== false)
+      .map((b: any) => ({
+        ...b,
+        models: (b.models || [])
+          .filter((m: any) => m.active !== false)
+      }));
   } catch (e) {
     console.error("Failed to read local brands.json:", e);
     return [];
@@ -74,14 +86,16 @@ export async function getBrand(brandId: string) {
         .from("brands")
         .select("*")
         .eq("id", normalizedId)
+        .eq("active", true)
         .single();
       
       if (!error && data) {
         // Fetch models to match the JSON structure that components expect
         const { data: modelsData } = await supabase
           .from("models")
-          .select("id, name, name_th, type, years")
-          .eq("brand_id", normalizedId);
+          .select("id, name, name_th, type, years, active")
+          .eq("brand_id", normalizedId)
+          .eq("active", true);
 
         const formattedModels = (modelsData || []).map((m) => {
           // Extract simple model slug (e.g., "camry" from "toyota-camry")
@@ -96,7 +110,8 @@ export async function getBrand(brandId: string) {
             name: m.name,
             nameTh: m.name_th,
             year: yearStr,
-            type: m.type
+            type: m.type,
+            active: m.active
           };
         });
 
@@ -108,6 +123,7 @@ export async function getBrand(brandId: string) {
           color: data.color,
           description: data.description,
           popularModels: data.popular_models || [],
+          active: data.active,
           models: formattedModels
         };
       }
@@ -119,7 +135,7 @@ export async function getBrand(brandId: string) {
 
   // Fallback to JSON
   try {
-    const brands = await getBrands();
+    const brands = await getBrands(); // This helper already filters inactive brands/models
     return brands.find((b: any) => b.id === normalizedId) || null;
   } catch (e) {
     console.error(`Failed to find local brand ${normalizedId}:`, e);
@@ -173,17 +189,20 @@ export async function getModel(brandId: string, modelId: string) {
           *,
           brands (
             name,
-            name_th
+            name_th,
+            active
           )
         `)
         .eq("id", compositeModelId)
+        .eq("active", true)
         .single();
       
-      if (!error && data) {
+      if (!error && data && (!data.brands || data.brands.active !== false)) {
         // Fetch parts count for category mapping
         const { data: partsData } = await supabase
           .from("parts")
-          .select("category");
+          .select("category")
+          .eq("active", true);
 
         // Calculate counts per category
         const counts: Record<string, number> = {};
@@ -223,6 +242,7 @@ export async function getModel(brandId: string, modelId: string) {
           type: data.type || "N/A",
           image: data.image,
           description: data.description,
+          active: data.active,
           specs: data.specs || {
             length: "N/A",
             width: "N/A",
@@ -248,7 +268,7 @@ export async function getModel(brandId: string, modelId: string) {
           generations
         };
       }
-      console.warn(`Supabase getModel(${compositeModelId}) failed, falling back to JSON:`, error?.message);
+      console.warn(`Supabase getModel(${compositeModelId}) failed or brand inactive, falling back to JSON:`, error?.message);
     } catch (e) {
       console.warn(`Supabase getModel(${compositeModelId}) exception, falling back to JSON:`, e);
     }
@@ -260,6 +280,12 @@ export async function getModel(brandId: string, modelId: string) {
     if (fs.existsSync(detailedPath)) {
       const fileContent = fs.readFileSync(detailedPath, "utf8");
       const detail = JSON.parse(fileContent);
+      
+      if (detail.active === false) return null;
+      
+      const brandInfo = await getBrand(brandId);
+      if (!brandInfo) return null; // Brand is inactive or not found
+
       return {
         ...detail,
         generations
@@ -276,6 +302,9 @@ export async function getModel(brandId: string, modelId: string) {
         (b) => b.toLowerCase() === normalizedBrand
       );
       if (brandKey) {
+        const brandInfo = await getBrand(brandId);
+        if (!brandInfo) return null; // Brand is inactive
+
         const brandTree = searchTree[brandKey];
         const modelKey = Object.keys(brandTree).find((m) => {
           const mData = brandTree[m];
@@ -289,6 +318,8 @@ export async function getModel(brandId: string, modelId: string) {
 
         if (modelKey) {
           const mData = brandTree[modelKey];
+          if (mData.active === false) return null;
+
           return {
             id: compositeModelId,
             brand: normalizedBrand,
@@ -357,12 +388,26 @@ export async function getParts(brandId: string, modelId: string, category: strin
     try {
       const { data, error } = await supabase
         .from("parts")
-        .select("*")
+        .select(`
+          *,
+          models (
+            active,
+            brands (
+              active
+            )
+          )
+        `)
         .eq("model_id", compositeModelId)
-        .eq("category", normalizedCategory);
+        .eq("category", normalizedCategory)
+        .eq("active", true);
 
       if (!error && data) {
-        return data.map((part) => ({
+        // Filter out parts where model or brand is inactive
+        const activeParts = data.filter((part: any) => 
+          !part.models || (part.models.active !== false && (!part.models.brands || part.models.brands.active !== false))
+        );
+
+        return activeParts.map((part) => ({
           id: part.id,
           nameTh: part.name_th,
           nameEn: part.name_en,
@@ -378,7 +423,8 @@ export async function getParts(brandId: string, modelId: string, category: strin
           difficulty: part.difficulty,
           affiliateLinks: part.affiliate_links,
           relatedArticle: part.related_article,
-          tags: part.tags
+          tags: part.tags,
+          active: part.active
         }));
       }
       console.warn(`Supabase getParts(${compositeModelId}, ${normalizedCategory}) failed, falling back to JSON:`, error?.message);
@@ -393,8 +439,13 @@ export async function getParts(brandId: string, modelId: string, category: strin
     const filePath = path.join(process.cwd(), "data/parts", filename);
 
     if (fs.existsSync(filePath)) {
+      // Check if model and brand are active
+      const modelData = await getModel(brandId, modelId);
+      if (!modelData) return [];
+
       const data = fs.readFileSync(filePath, "utf-8");
-      return JSON.parse(data);
+      const parts = JSON.parse(data);
+      return parts.filter((p: any) => p.active !== false);
     }
   } catch (e) {
     console.error(`Failed to read local parts for ${filename}:`, e);
