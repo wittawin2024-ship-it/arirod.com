@@ -133,24 +133,30 @@ export async function POST(request: Request) {
     }
 
     // 2. Write key to .env.local
-    const envPath = path.join(process.cwd(), ".env.local");
-    let envContent = "";
-    
-    if (fs.existsSync(envPath)) {
-      envContent = fs.readFileSync(envPath, "utf-8");
+    let isPersistent = true;
+    try {
+      const envPath = path.join(process.cwd(), ".env.local");
+      let envContent = "";
+      
+      if (fs.existsSync(envPath)) {
+        envContent = fs.readFileSync(envPath, "utf-8");
+      }
+
+      const keyLineRegex = /^GEMINI_API_KEY=.*$/m;
+      const newLine = `GEMINI_API_KEY=${apiKey}`;
+
+      if (keyLineRegex.test(envContent)) {
+        envContent = envContent.replace(keyLineRegex, newLine);
+      } else {
+        // Append key to env file
+        envContent = envContent.trim() + `\n\n# Google Gemini API Key\n${newLine}\n`;
+      }
+
+      fs.writeFileSync(envPath, envContent, "utf-8");
+    } catch (fsError: any) {
+      console.warn("Failed to write to .env.local (read-only filesystem on cloud hosts like Vercel):", fsError.message);
+      isPersistent = false;
     }
-
-    const keyLineRegex = /^GEMINI_API_KEY=.*$/m;
-    const newLine = `GEMINI_API_KEY=${apiKey}`;
-
-    if (keyLineRegex.test(envContent)) {
-      envContent = envContent.replace(keyLineRegex, newLine);
-    } else {
-      // Append key to env file
-      envContent = envContent.trim() + `\n\n# Google Gemini API Key\n${newLine}\n`;
-    }
-
-    fs.writeFileSync(envPath, envContent, "utf-8");
 
     // 3. Update the key in memory immediately for the running server process
     process.env.GEMINI_API_KEY = apiKey;
@@ -159,7 +165,8 @@ export async function POST(request: Request) {
       success: true, 
       status: verification.status,
       latencyMs: verification.latencyMs,
-      maskedKey: maskKey(apiKey)
+      maskedKey: maskKey(apiKey),
+      isPersistent
     });
   } catch (error: any) {
     console.error("POST Gemini Key Config error:", error);

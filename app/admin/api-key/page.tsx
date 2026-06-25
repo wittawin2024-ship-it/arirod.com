@@ -75,7 +75,11 @@ export default function ApiKeyPage() {
         throw new Error(json.error || "เกิดข้อผิดพลาดในการบันทึก API Key");
       }
 
-      setSuccess("บันทึกและเชื่อมต่อ Gemini API Key ใหม่สำเร็จแล้ว!");
+      if (json.isPersistent === false) {
+        setSuccess("เชื่อมต่อ Gemini API Key สำเร็จแล้ว! (เป็นการบันทึกชั่วคราวในหน่วยความจำเนื่องจากระบบไฟล์บนระบบคลาวด์เป็นแบบ Read-only กรุณาตั้งค่าถาวรที่ Vercel Environment Variables)");
+      } else {
+        setSuccess("บันทึกและเชื่อมต่อ Gemini API Key ใหม่สำเร็จแล้ว!");
+      }
       setNewKey("");
       setShowKey(false);
       
