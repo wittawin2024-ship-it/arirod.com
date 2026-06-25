@@ -388,8 +388,8 @@ export async function getParts(brandId: string, modelId: string, category: strin
   }
 
   // Fallback to JSON File
+  const filename = `${normalizedBrand}-${normalizedModel}-${normalizedCategory}.json`;
   try {
-    const filename = `${normalizedBrand}-${normalizedModel}-${normalizedCategory}.json`;
     const filePath = path.join(process.cwd(), "data/parts", filename);
 
     if (fs.existsSync(filePath)) {
