@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getAdminSession } from "@/lib/admin-auth";
 import fs from "fs";
 import path from "path";
+import { getDynamicGeminiApiKey } from "@/lib/gemini-key";
 
 // Helper to check Gemini key status & quota via countTokens API
 async function verifyApiKey(apiKey: string): Promise<{
@@ -87,7 +88,7 @@ export async function GET() {
       return NextResponse.json({ error: "Unauthorized. Admin privileges required." }, { status: 403 });
     }
 
-    const currentKey = process.env.GEMINI_API_KEY || "";
+    const currentKey = getDynamicGeminiApiKey();
     const maskedKey = maskKey(currentKey);
 
     const verification = currentKey 

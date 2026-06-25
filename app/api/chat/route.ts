@@ -2,6 +2,7 @@ import { createGoogleGenerativeAI } from "@ai-sdk/google";
 import { streamText, convertToModelMessages } from "ai";
 import fs from "fs";
 import path from "path";
+import { getDynamicGeminiApiKey } from "@/lib/gemini-key";
 
 function incrementUsageCount() {
   try {
@@ -67,7 +68,7 @@ export async function POST(req: Request) {
     const uiMessages = body.messages ?? [];
     const apiKey = body.apiKey ?? "";
 
-    const geminiApiKey = apiKey || process.env.GEMINI_API_KEY;
+    const geminiApiKey = apiKey || getDynamicGeminiApiKey();
 
     if (!geminiApiKey) {
       return new Response(
