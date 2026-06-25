@@ -76,7 +76,7 @@ export default async function BrandPage({
 
         {/* Vehicle card grid — Tesla style */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {brandInfo.models.map((model) => (
+          {brandInfo.models.map((model: any) => (
             <Link
               key={model.id}
               href={`/${brand}/${model.id}`}

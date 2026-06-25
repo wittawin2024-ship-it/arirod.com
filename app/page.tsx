@@ -65,7 +65,7 @@ export default async function HomePage() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-10">
-            {popularBrands.map((brand) => (
+            {popularBrands.map((brand: any) => (
               <Link
                 key={brand.id}
                 href={`/${brand.id}`}

@@ -31,7 +31,7 @@ export default async function BrandsPage() {
         </nav>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {brandsData.map((brand) => (
+          {brandsData.map((brand: any) => (
             <Link
               key={brand.id}
               href={`/${brand.id}`}
@@ -69,7 +69,7 @@ export default async function BrandsPage() {
                 <p className="text-[#5C5E62] text-[13px] leading-relaxed mb-4 line-clamp-2">{brand.description}</p>
 
                 <div className="flex flex-wrap gap-2">
-                  {brand.models.slice(0, 3).map((m) => (
+                  {brand.models.slice(0, 3).map((m: any) => (
                     <span key={m.id} className="text-[12px] text-[#5C5E62] border border-[#EEEEEE] px-2 py-1 rounded-[4px]">
                       {m.name} · {typeIcons[m.type] || m.type}
                     </span>
