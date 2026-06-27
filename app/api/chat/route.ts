@@ -1,16 +1,16 @@
-import { createGoogleGenerativeAI } from "@ai-sdk/google";
+import { createOpenAI } from "@ai-sdk/openai";
 import { streamText, convertToModelMessages } from "ai";
 import fs from "fs";
 import path from "path";
-import { getDynamicGeminiApiKey } from "@/lib/gemini-key";
+import { getChatbotSettings, composeSystemPrompt } from "@/lib/chatbot-settings";
 
 function incrementUsageCount() {
   try {
     const usagePath = path.join(process.cwd(), "data/chatbot-usage.json");
-    const today = new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD
-    
+    const today = new Date().toLocaleDateString("en-CA");
+
     let stats = { date: today, requestCount: 0 };
-    
+
     if (fs.existsSync(usagePath)) {
       const fileContent = fs.readFileSync(usagePath, "utf-8");
       const data = JSON.parse(fileContent);
@@ -18,14 +18,14 @@ function incrementUsageCount() {
         stats = data;
       }
     }
-    
+
     stats.requestCount += 1;
-    
+
     const dir = path.dirname(usagePath);
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
-    
+
     fs.writeFileSync(usagePath, JSON.stringify(stats, null, 2), "utf-8");
   } catch (e) {
     console.error("[chat] Failed to log usage stats:", e);
@@ -34,76 +34,57 @@ function incrementUsageCount() {
 
 export const maxDuration = 30;
 
-const SYSTEM_PROMPT = `คุณคือ "ไอ้เหล็ก" ผู้ช่วย AI ของเว็บไซต์ AraiRod.com ร้านอะไหล่รถยนต์ออนไลน์
-
-ความเชี่ยวชาญของคุณ:
-- วิเคราะห์อาการเสียของรถยนต์จากอาการที่ผู้ใช้บอก
-- แนะนำอะไหล่ที่ต้องเปลี่ยนพร้อมชื่อเต็มและรายละเอียด
-- ประเมินความเร่งด่วนในการซ่อม
-- ให้ข้อมูลราคาและแหล่งซื้ออะไหล่
-
-วิธีตอบ:
-1. ถ้ายังไม่รู้ยี่ห้อ/รุ่น/ปีรถ → ถามก่อน 1 ครั้ง (อย่าถามซ้ำ)
-2. วิเคราะห์อาการและบอกสาเหตุที่เป็นไปได้ เรียงจากโอกาสมากไปน้อย
-3. แนะนำอะไหล่ที่ต้องตรวจสอบและเปลี่ยน
-4. บอกระดับความเร่งด่วน:
-   🔴 ด่วนมาก - ห้ามขับต่อ
-   🟡 ปานกลาง - ควรซ่อมใน 1-2 สัปดาห์
-   🟢 รอได้ - ซ่อมเมื่อสะดวก
-5. แนะนำให้ดูอะไหล่ที่ AraiRod.com เสมอเมื่อเหมาะสม
-
-กฎสำคัญ:
-- ตอบเป็นภาษาไทยเสมอ
-- ใช้ emoji เพื่อให้อ่านง่าย
-- ห้ามตอบเรื่องที่ไม่เกี่ยวกับรถยนต์
-- ถ้าไม่แน่ใจ แนะนำให้พาไปช่างเพื่อตรวจสอบ
-- ตอบกระชับ ตรงประเด็น ไม่ยาวเกินไป`;
-
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-
-    // @ai-sdk/react v3 ส่ง UIMessages (มี parts[]) ใน body.messages
-    // ต้องแปลงเป็น ModelMessages ก่อนส่งให้ streamText
     const uiMessages = body.messages ?? [];
-    const apiKey = body.apiKey ?? "";
 
-    const geminiApiKey = apiKey || getDynamicGeminiApiKey();
+    const openrouterApiKey = process.env.OPENROUTER_API_KEY;
 
-    if (!geminiApiKey) {
+    if (!openrouterApiKey) {
       return new Response(
         JSON.stringify({
-          error: "ไม่พบ Gemini API Key กรุณาตั้งค่า GEMINI_API_KEY ใน .env.local",
+          error: "ไม่พบ OpenRouter API Key กรุณาตั้งค่า OPENROUTER_API_KEY ใน .env.local",
         }),
         { status: 400, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    // บันทึกปริมาณการใช้งาน Quota (Increment usage count)
+    // ดึงการตั้งค่าแชทบอทล่าสุดจากระบบหลังบ้าน (รวมถึง prompt และ skills ต่างๆ)
+    const settings = getChatbotSettings();
+    const finalSystemPrompt = composeSystemPrompt(settings);
+
+    // บันทึกปริมาณการใช้งาน
     incrementUsageCount();
 
-    // แปลง UIMessage[] → ModelMessage[] (async ต้อง await)
+    // แปลง UIMessage[] → ModelMessage[]
     const messages = await convertToModelMessages(uiMessages);
 
-    console.log("[chat] uiMessages:", JSON.stringify(uiMessages));
-    console.log("[chat] modelMessages:", JSON.stringify(messages));
-
-    const google = createGoogleGenerativeAI({ apiKey: geminiApiKey });
-
-    const result = streamText({
-      model: google("gemini-2.0-flash"),
-      system: SYSTEM_PROMPT,
-      messages,
-      temperature: 0.7,
+    // กำหนดให้ชี้ไปยัง API endpoint ของ OpenRouter
+    const openrouter = createOpenAI({
+      apiKey: openrouterApiKey,
+      baseURL: "https://openrouter.ai/api/v1",
+      headers: {
+        "HTTP-Referer": "https://arairod.com",
+        "X-Title": settings.name || "AraiRod AI",
+      },
     });
 
-    // ai v6 + @ai-sdk/react v3 ใช้ toUIMessageStreamResponse
+    const result = streamText({
+      model: openrouter.chat(settings.model || "openrouter/free"),
+      system: finalSystemPrompt,
+      messages,
+      temperature: settings.temperature ?? 0.7,
+    });
+
     return result.toUIMessageStreamResponse({
       onError: (error) => {
-        const err = error as Error;
-        console.error("[chat] Stream error:", err?.message, err?.stack);
-        return err?.message || "Unknown stream error";
-      }
+        console.error("[chat] Stream error:", error);
+        if (error && typeof error === "object") {
+          return (error as any).message || JSON.stringify(error);
+        }
+        return String(error) || "Unknown stream error";
+      },
     });
   } catch (err: unknown) {
     const error = err as Error;

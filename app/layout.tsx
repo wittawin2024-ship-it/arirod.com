@@ -3,7 +3,6 @@ import { Inter, Mitr } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ChatBot from "@/components/ChatBot";
 import { getBrands } from "@/lib/db";
 import { headers } from "next/headers";
 
@@ -76,7 +75,6 @@ export default async function RootLayout({
         <Navbar initialBrands={brands} />
         <main>{children}</main>
         <Footer />
-        <ChatBot />
       </body>
     </html>
   );

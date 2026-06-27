@@ -2,13 +2,17 @@ import { NextResponse } from "next/server";
 import { getAdminSession } from "@/lib/admin-auth";
 import fs from "fs";
 import path from "path";
-import { getDynamicGeminiApiKey } from "@/lib/gemini-key";
+import { getDynamicOpenRouterApiKey } from "@/lib/api-key";
 
-// Helper to check Gemini key status & quota via countTokens API
-async function verifyApiKey(apiKey: string): Promise<{
+// Helper to check OpenRouter key status & details from official API
+async function verifyOpenRouterKey(apiKey: string): Promise<{
   status: "valid" | "exhausted" | "invalid" | "error";
   errorDetails?: string;
   latencyMs?: number;
+  label?: string;
+  limit?: number | null;
+  usage?: number;
+  limitRemaining?: number | null;
 }> {
   if (!apiKey) {
     return { status: "invalid", errorDetails: "No API Key provided" };
@@ -16,45 +20,49 @@ async function verifyApiKey(apiKey: string): Promise<{
 
   const start = Date.now();
   try {
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:countTokens?key=${apiKey}`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: "ping" }] }],
-        }),
-      }
-    );
+    const response = await fetch("https://openrouter.ai/api/v1/key", {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+      },
+    });
 
     const latencyMs = Date.now() - start;
 
     if (response.ok) {
-      return { status: "valid", latencyMs };
+      const json = await response.json();
+      const data = json.data || {};
+      
+      // OpenRouter returns usage in USD credits
+      return {
+        status: "valid",
+        latencyMs,
+        label: data.label || "Untitled Key",
+        limit: data.limit !== undefined ? data.limit : null,
+        usage: data.usage || 0,
+        limitRemaining: data.limit_remaining !== undefined ? data.limit_remaining : null,
+      };
     }
 
     const errorJson = await response.json().catch(() => ({}));
     const errorMessage = errorJson?.error?.message || response.statusText;
-    const errorCode = errorJson?.error?.status || "";
 
-    if (response.status === 429 || errorCode === "RESOURCE_EXHAUSTED" || errorMessage.toLowerCase().includes("quota")) {
-      return { status: "exhausted", errorDetails: "Quota Exceeded (โควตาหมดชั่วคราว)", latencyMs };
+    if (response.status === 401 || response.status === 403) {
+      return { status: "invalid", errorDetails: `API Key ไม่ถูกต้อง: ${errorMessage}`, latencyMs };
     }
 
-    if (response.status === 400 || response.status === 403 || errorMessage.toLowerCase().includes("key not valid") || errorMessage.toLowerCase().includes("invalid")) {
-      return { status: "invalid", errorDetails: `API Key ไม่ถูกต้อง: ${errorMessage}`, latencyMs };
+    if (response.status === 429) {
+      return { status: "exhausted", errorDetails: "อัตราการเรียกใช้งานเกินจำกัด (Rate Limit Exceeded)", latencyMs };
     }
 
     return { status: "error", errorDetails: `เกิดข้อผิดพลาด (${response.status}): ${errorMessage}`, latencyMs };
   } catch (error: any) {
     const latencyMs = Date.now() - start;
-    return { status: "error", errorDetails: `ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ได้: ${error?.message || "Unknown Network Error"}`, latencyMs };
+    return { status: "error", errorDetails: `ไม่สามารถเชื่อมต่อ OpenRouter ได้: ${error?.message || "Unknown Network Error"}`, latencyMs };
   }
 }
 
-// Helper to read and format usage statistics
+// Helper to read and format local chatbot usage statistics
 function getUsageStats() {
   const usagePath = path.join(process.cwd(), "data/chatbot-usage.json");
   const today = new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD
@@ -76,11 +84,11 @@ function getUsageStats() {
 // Masking utility
 function maskKey(key: string): string {
   if (!key) return "";
-  if (key.length <= 12) return "••••••••••••";
-  return `${key.substring(0, 6)}••••••••${key.substring(key.length - 6)}`;
+  if (key.length <= 16) return "••••••••••••";
+  return `${key.substring(0, 8)}••••••••${key.substring(key.length - 8)}`;
 }
 
-// GET: Check API Key status, latency, and current quota usage
+// GET: Check API Key status, details, usage, and local daily request count
 export async function GET() {
   try {
     const session = await getAdminSession();
@@ -88,14 +96,14 @@ export async function GET() {
       return NextResponse.json({ error: "Unauthorized. Admin privileges required." }, { status: 403 });
     }
 
-    const currentKey = getDynamicGeminiApiKey();
+    const currentKey = getDynamicOpenRouterApiKey();
     const maskedKey = maskKey(currentKey);
 
     const verification = currentKey 
-      ? await verifyApiKey(currentKey)
-      : { status: "invalid" as const, errorDetails: "ไม่พบ Gemini API Key ในระบบ" };
+      ? await verifyOpenRouterKey(currentKey)
+      : { status: "invalid" as const, errorDetails: "ไม่พบ OpenRouter API Key ในระบบ" };
 
-    const usage = getUsageStats();
+    const localUsage = getUsageStats();
 
     return NextResponse.json({
       hasKey: !!currentKey,
@@ -103,15 +111,19 @@ export async function GET() {
       status: verification.status,
       errorDetails: verification.errorDetails || null,
       latencyMs: verification.latencyMs || null,
-      usage,
+      label: verification.label || null,
+      limit: verification.limit !== undefined ? verification.limit : null,
+      usage: verification.usage || 0,
+      limitRemaining: verification.limitRemaining !== undefined ? verification.limitRemaining : null,
+      localUsage,
     });
   } catch (error: any) {
-    console.error("GET Gemini Key Config error:", error);
+    console.error("GET API Key Config error:", error);
     return NextResponse.json({ error: error?.message || "Failed to fetch configuration" }, { status: 500 });
   }
 }
 
-// POST: Update Gemini API Key in .env.local
+// POST: Update OpenRouter API Key in .env.local
 export async function POST(request: Request) {
   try {
     const session = await getAdminSession();
@@ -126,7 +138,7 @@ export async function POST(request: Request) {
     }
 
     // 1. Verify key before saving
-    const verification = await verifyApiKey(apiKey);
+    const verification = await verifyOpenRouterKey(apiKey);
     if (verification.status === "invalid") {
       return NextResponse.json({ 
         error: `ตรวจสอบคีย์ล้มเหลว: API Key ไม่ถูกต้อง (${verification.errorDetails})` 
@@ -143,24 +155,30 @@ export async function POST(request: Request) {
         envContent = fs.readFileSync(envPath, "utf-8");
       }
 
-      const keyLineRegex = /^GEMINI_API_KEY=.*$/m;
-      const newLine = `GEMINI_API_KEY=${apiKey}`;
+      // Remove GEMINI_API_KEY reference if we want to replace it
+      const geminiLineRegex = /^GEMINI_API_KEY=.*$/m;
+      if (geminiLineRegex.test(envContent)) {
+        envContent = envContent.replace(geminiLineRegex, "");
+      }
+
+      const keyLineRegex = /^OPENROUTER_API_KEY=.*$/m;
+      const newLine = `OPENROUTER_API_KEY=${apiKey}`;
 
       if (keyLineRegex.test(envContent)) {
         envContent = envContent.replace(keyLineRegex, newLine);
       } else {
         // Append key to env file
-        envContent = envContent.trim() + `\n\n# Google Gemini API Key\n${newLine}\n`;
+        envContent = envContent.trim() + `\n\n# OpenRouter API Key\n${newLine}\n`;
       }
 
       fs.writeFileSync(envPath, envContent, "utf-8");
     } catch (fsError: any) {
-      console.warn("Failed to write to .env.local (read-only filesystem on cloud hosts like Vercel):", fsError.message);
+      console.warn("Failed to write to .env.local:", fsError.message);
       isPersistent = false;
     }
 
     // 3. Update the key in memory immediately for the running server process
-    process.env.GEMINI_API_KEY = apiKey;
+    process.env.OPENROUTER_API_KEY = apiKey;
 
     return NextResponse.json({ 
       success: true, 
@@ -170,7 +188,7 @@ export async function POST(request: Request) {
       isPersistent
     });
   } catch (error: any) {
-    console.error("POST Gemini Key Config error:", error);
+    console.error("POST API Key Config error:", error);
     return NextResponse.json({ error: error?.message || "Failed to update API Key" }, { status: 500 });
   }
 }
