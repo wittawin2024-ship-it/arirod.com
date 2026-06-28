@@ -41,8 +41,7 @@ export default function AdminTopBar({ userEmail }: AdminTopBarProps) {
         method: "POST",
       });
       if (res.ok) {
-        router.refresh();
-        router.push("/admin/login");
+        window.location.href = "/admin/login";
       } else {
         alert("ออกจากระบบไม่สำเร็จ กรุณาลองใหม่อีกครั้ง");
       }

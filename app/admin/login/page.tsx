@@ -45,8 +45,7 @@ function LoginContent() {
       if (data.requiresVerification) {
         setMessage(data.message);
       } else {
-        router.refresh();
-        router.push(redirectPath);
+        window.location.href = redirectPath;
       }
     } catch (err: any) {
       setError(err.message || "เกิดข้อผิดพลาดไม่ทราบสาเหตุ");
